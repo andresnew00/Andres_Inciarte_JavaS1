@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b840446-a10c-4134-8605-ad65157f8b78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/newValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190809/04-lesson/activities/katas/starter-code/minmaxavg/minmaxavg.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190809/05-lesson/activities/katas/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190809/04-lesson/activities/katas/starter-code/RectPavingCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190809/04-lesson/activities/katas/starter-code/RectPavingCompany/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190809/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190809/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190809/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190809/05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/newValue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -59,18 +61,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="806" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,6 +110,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -170,7 +165,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -224,8 +218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/newValue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>

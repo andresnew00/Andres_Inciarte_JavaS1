@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c678e3a-86c6-4c74-bd3d-d36fe29ac852" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../minmaxavg/minmaxavg.iml" afterDir="false" />
+    <list default="true" id="506dd505-2f36-477c-a8ad-76c3ac49171b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/minmaxavg.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/U1-M1-L5-katas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RectPavingCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RectPavingCompany/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
     </list>
@@ -24,10 +24,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/RectPavingCompany.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            <state relative-caret-position="247">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -37,17 +37,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/company/RectPavingCompany.java" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/RectPavingCompany.iml" />
+        <option value="$PROJECT_DIR$/minmaxavg.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
         <option value="$PROJECT_DIR$/.idea/compiler.xml" />
@@ -55,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="804" />
@@ -66,34 +59,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="RectPavingCompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RectPavingCompany" type="462c0819:PsiDirectoryNode" />
+              <item name="minmaxavg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minmaxavg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RectPavingCompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RectPavingCompany" type="462c0819:PsiDirectoryNode" />
+              <item name="minmaxavg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minmaxavg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RectPavingCompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RectPavingCompany" type="462c0819:PsiDirectoryNode" />
+              <item name="minmaxavg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minmaxavg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RectPavingCompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RectPavingCompany" type="462c0819:PsiDirectoryNode" />
+              <item name="minmaxavg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minmaxavg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="RectPavingCompany" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RectPavingCompany" type="462c0819:PsiDirectoryNode" />
+              <item name="minmaxavg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="minmaxavg" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -103,12 +98,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -124,9 +116,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="RectPavingCompany" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.RectPavingCompany" />
-      <module name="RectPavingCompany" />
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.App" />
+      <module name="minmaxavg" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -139,7 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RectPavingCompany" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -148,16 +140,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3c678e3a-86c6-4c74-bd3d-d36fe29ac852" name="Default Changelist" comment="" />
-      <created>1565284682820</created>
+      <changelist id="506dd505-2f36-477c-a8ad-76c3ac49171b" name="Default Changelist" comment="" />
+      <created>1565286475149</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565284682820</updated>
+      <updated>1565286475149</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="1" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -172,8 +164,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3421687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -187,11 +179,35 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/App.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/App.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/company/App.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/RectPavingCompany.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+        <state relative-caret-position="247">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
