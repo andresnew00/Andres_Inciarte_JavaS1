@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7ad420-84a1-482b-8c08-4c1ce022289c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/AgeAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/AgeAgain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountByThirteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountByThirteen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountByTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountByTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/CountTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/EvenOrOdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/FavoriteProgrammingLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/FavoriteProgrammingLanguage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/IsJavaKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/IsJavaKeyword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/UltimateQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/UltimateQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/YourAgeCan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/YourAgeCan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/AgeAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/AgeAgain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountByThirteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountByThirteen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountByTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountByTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/CountTo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/EvenOrOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/EvenOrOdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/FavoriteProgrammingLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/FavoriteProgrammingLanguage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/IsJavaKeyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/IsJavaKeyword.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/RangeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/RangeChecker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/UltimateQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/UltimateQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/YourAgeCan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/target/classes/com/company/YourAgeCan.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -160,6 +176,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
