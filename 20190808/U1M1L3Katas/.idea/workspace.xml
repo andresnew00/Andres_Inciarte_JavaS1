@@ -4,15 +4,8 @@
     <list default="true" id="7f18984c-367a-4521-b0fe-cf442728551e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AgeAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AgeAgain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CountByThirteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CountByThirteen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CountByTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CountByTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/CountTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/CountTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/EvenOrOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/FavoriteProgrammingLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/FavoriteProgrammingLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/IsJavaKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/IsJavaKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/UltimateQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/UltimateQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/YourAgeCan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/YourAgeCan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -45,19 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/YourAgeCan.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+            <state relative-caret-position="330">
+              <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/YourAgeCanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="-347">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -339,12 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FavoriteProgrammingLanguageTest - 2019.08.08 at 01h 30m 56s.xml">
-      <configuration name="FavoriteProgrammingLanguageTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FavoriteProgrammingLanguageTest - 2019.08.08 at 01h 32m 11s.xml">
-      <configuration name="FavoriteProgrammingLanguageTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FavoriteProgrammingLanguageTest - 2019.08.08 at 01h 33m 47s.xml">
       <configuration name="FavoriteProgrammingLanguageTest" configurationId="JUnit" />
     </history-entry>
@@ -369,9 +356,16 @@
     <history-entry file="YourAgeCanTest - 2019.08.08 at 02h 24m 26s.xml">
       <configuration name="YourAgeCanTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="YourAgeCanTest - 2019.08.08 at 02h 28m 41s.xml">
+      <configuration name="YourAgeCanTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="YourAgeCanTest - 2019.08.08 at 02h 29m 35s.xml">
+      <configuration name="YourAgeCanTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -505,17 +499,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/YourAgeCanTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/YourAgeCan.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="330">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/YourAgeCan.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/YourAgeCanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        <state relative-caret-position="-347">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>

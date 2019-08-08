@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b700d74-03d0-48f7-b154-06b208925b3a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/AgeAgain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/AgeAgain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountByThirteen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountByThirteen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountByTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountByTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/CountTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/EvenOrOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/EvenOrOdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/FavoriteProgrammingLanguage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/FavoriteProgrammingLanguage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/IsJavaKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/IsJavaKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/UltimateQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/UltimateQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/YourAgeCan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/YourAgeCan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/AgeAgain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/AgeAgain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountByThirteen.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountByThirteen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountByTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountByTwo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/CountTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/EvenOrOdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/EvenOrOdd.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/FavoriteProgrammingLanguage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/FavoriteProgrammingLanguage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/IsJavaKeyword.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/IsJavaKeyword.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/RangeChecker.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/RangeChecker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/UltimateQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/UltimateQuestion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/YourAgeCan.class" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/target/classes/com/company/YourAgeCan.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
