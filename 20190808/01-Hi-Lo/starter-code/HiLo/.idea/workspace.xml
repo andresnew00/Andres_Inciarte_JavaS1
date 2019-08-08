@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77da0856-2fd7-435d-a059-9fdecf8a2d53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../02-How-many-times-to-7/src/main/java/dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/HiLo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="8" selection-end-line="9" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,6 +82,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -199,7 +204,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/HiLo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="8" selection-end-line="9" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b700d74-03d0-48f7-b154-06b208925b3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/src/main/java/com/company/RangeChecker.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+            <state relative-caret-position="295">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,6 +79,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,11 +110,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -152,9 +157,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -188,8 +192,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="295">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
