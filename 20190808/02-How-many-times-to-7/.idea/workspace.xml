@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1b700d74-03d0-48f7-b154-06b208925b3a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1M1L3Katas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />

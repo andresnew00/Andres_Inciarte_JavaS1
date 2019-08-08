@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f18984c-367a-4521-b0fe-cf442728551e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/src/main/java/com/company/PrimeFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/../05-Prime-Finder/starter-code/PrimeFinder/target/classes/com/company/PrimeFinder.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/company/YourAgeCanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
+            <state relative-caret-position="-267">
               <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
@@ -376,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -508,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/YourAgeCanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
+        <state relative-caret-position="-267">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
