@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c678e3a-86c6-4c74-bd3d-d36fe29ac852" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/src/main/java/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/src/main/java/multiDimentionalArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/src/main/java/simpleClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/src/main/java/newValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/src/main/java/newValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/target/classes/newValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../../20190808/greaterValue/target/classes/newValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../minmaxavg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../minmaxavg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../05-lesson/activities/katas/starter-code/U1M1L5Katas/src/main/java/com/company/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
