@@ -92,18 +92,16 @@ public class App {
 
 
     public static int[] reverse(int[] reverseArray) {
-        // loop half the length of array
-        for (int i = 0; i < reverseArray.length / 2; i++) {
-            // variable that is going to contain the current position to later be switch with the last position
-            int number = reverseArray[i];
-            // current position now gets changed with the opposite position in the other half of the array
-            reverseArray[i] = reverseArray[reverseArray.length - i - 1];
-            // last position gets switched with the variable stored at the beginning
-            reverseArray[reverseArray.length - i - 1] = number;
+
+        int[] newReverseArray = new int[reverseArray.length];
+        // variable that is going to contain the current position
+        int reverseValue = 0;
+
+        // loop backwards
+        for(int i = reverseArray.length - 1; i >= 0; i--){
+            newReverseArray[reverseValue++] = reverseArray[i];
         }
-
-        return reverseArray;
-
+        return newReverseArray;
     }
 
     public static String concatenateString(String[] wordsArray) {
@@ -117,7 +115,7 @@ public class App {
         }
         return fullWord;
     }
-    
+
     public static int[] everyThird(int[] third) {
         //first if there is less than 3 numbers in array return null
         if (third.length < 3) {
