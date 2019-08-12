@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Summative Assessment 1" />
+        <module name="U1-M1-Summative-Andres-Inciarte" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="U1-M1-Summative-Andres-Inciarte" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
