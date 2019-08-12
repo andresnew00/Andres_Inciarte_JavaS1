@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e79c73d-6715-46b2-9860-8119a879e7c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/MonthConverterIf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/ArrayFun5Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/ArrayFunReverseIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/ArrayFunUserArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/MonthConverterSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/SomeMath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/ValidNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Summative Assessment 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/MonthConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Summative Assessment 1/src/main/java/MonthConverterIf.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="99" column="25" lean-forward="true" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+              <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,12 +223,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.08.11 at 19h 02m 26s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.11 at 19h 15m 32s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AppTest - 2019.08.11 at 19h 15m 35s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
@@ -252,9 +247,16 @@
     <history-entry file="AppTest - 2019.08.11 at 22h 32m 51s.xml">
       <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest - 2019.08.11 at 22h 32m 54s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest - 2019.08.12 at 00h 26m 28s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -270,7 +272,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -341,7 +343,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="99" column="25" lean-forward="true" selection-start-line="99" selection-start-column="25" selection-end-line="99" selection-end-column="25" />
+          <caret line="71" column="13" lean-forward="true" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
