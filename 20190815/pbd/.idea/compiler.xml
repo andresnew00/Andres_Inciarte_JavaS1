@@ -6,11 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AndresInciarteU1M2L1PBD" />
+        <module name="pbd" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="AndresInciarteU1M2L1PBD" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
