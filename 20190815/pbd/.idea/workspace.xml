@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4882039-3385-43a7-8738-1b49b3b6be75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190813/pbd/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190813/pbd/AndresInciarteU1M2L1PBD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../implementation-userIO-interface/starter-code/UserIO/src/main/java/com/company/Input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddingValuesinaLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiceDoubles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RightTriangleChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SafeSquareRoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ShorterDoubleDice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreeCardMonte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190813/pbd/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190813/pbd/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190813/pbd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190813/pbd/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/AnalogClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Buzzer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Clock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/DigitalClock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190813/pbd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190813/pbd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190814/katas1.2.3/starter-code/U1M2L3Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190814/katas1.2.3/starter-code/U1M2L3Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../katas/starter-code/U1M2L5Katas/target/classes/META-INF/U1M2L5Katas.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -148,6 +149,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -238,7 +240,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
