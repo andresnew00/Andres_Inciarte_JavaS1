@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4086bc4d-943d-49c6-9801-6d98c33d7a73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NoticingEvenNumbers.java" afterDir="false" />
+    <list default="true" id="5aa43e48-e61c-4f58-9343-8dcf60311857" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/BabyBlackjack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1M2L7PBD.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +24,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/NoticingEvenNumbers.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/BabyBlackjack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -53,20 +56,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/FizzBuzz.java" />
-        <option value="$PROJECT_DIR$/src/main/java/NoticingEvenNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BabyBlackjack.java" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/U1M2L7PBD.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -77,6 +79,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -106,10 +109,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -124,16 +127,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
-    <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
-      <module name="U1M2L7PBD" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NoticingEvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NoticingEvenNumbers" />
+  <component name="RunManager">
+    <configuration name="BabyBlackjack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BabyBlackjack" />
       <module name="U1M2L7PBD" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,8 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.NoticingEvenNumbers" />
+        <item itemvalue="Application.BabyBlackjack" />
       </list>
     </recent_temporary>
   </component>
@@ -151,11 +146,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4086bc4d-943d-49c6-9801-6d98c33d7a73" name="Default Changelist" comment="" />
-      <created>1565925442097</created>
+      <changelist id="5aa43e48-e61c-4f58-9343-8dcf60311857" name="Default Changelist" comment="" />
+      <created>1565926761575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565925442097</updated>
+      <updated>1565926761575</updated>
     </task>
     <servers />
   </component>
@@ -176,7 +171,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3292232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,20 +187,17 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/NoticingEvenNumbers.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BabyBlackjack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
