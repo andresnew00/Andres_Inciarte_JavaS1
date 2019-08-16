@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa43e48-e61c-4f58-9343-8dcf60311857" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BabyBlackjack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/U1M2L6Katas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/U1M2L6Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../katas 1/U1M2L6Katas/U1M2L6Katas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/U1M2L7PBD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/ShapesPerimeters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/com/company/interfaceapproach/Triangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/concreteapproach/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/concreteapproach/Shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/concreteapproach/Square.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shapes-perimeters/starter-code/ShapesPerimeters/src/main/java/concreteapproach/Triangle.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,25 +34,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BabyBlackjack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            <state relative-caret-position="144">
+              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -60,17 +66,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/U1M2L7PBD.iml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -78,8 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,11 +106,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,49 +154,43 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25432277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292232" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3292232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/BabyBlackjack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        <state relative-caret-position="144">
+          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
