@@ -14,7 +14,11 @@ public class Home {
         return true;
     }
 
+    // rooms composition
     public LaundryRoom laundryRoom;
+    public Bathroom bathroom;
+    public Kitchen kitchen;
+    public Patio patio;
 
     // Getters and Setters
 
