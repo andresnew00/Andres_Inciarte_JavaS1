@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d13c425b-ab60-4b12-9d4e-80ea5cfed168" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/AnalogClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Buzzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../20190813/pbd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190813/pbd/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../katas/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../pbd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../pbd/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />

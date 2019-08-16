@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb909d39-b10e-49ce-98c7-dbb6274c5a4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Alarm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/AnalogClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Buzzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Clock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/DigitalClock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/main/java/com/company/interfaces/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190815/implementation-userIO-interface/starter-code/UserIO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190815/implementation-userIO-interface/starter-code/UserIO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190815/katas/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190815/katas/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190815/katas/starter-code/U1M2L5Katas/src/test/java/com/company/AllKatasTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190815/pbd/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190815/pbd/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="806" />
@@ -135,7 +122,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
