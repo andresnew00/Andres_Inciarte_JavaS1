@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b9f37d7-31c8-4d91-8a4e-beae2679d0f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" afterDir="false" />
+    <list default="true" id="a8cf7ee6-4753-435e-b901-b17dec8ca57c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/target/test-classes/com/company/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/target/test-classes/com/company/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-maps/starter-code/U1M3L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-maps/starter-code/U1M3L2Katas/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,60 +24,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="295">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Pets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="198">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/ApplicationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+            <state relative-caret-position="155">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/App.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/company/ApplicationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/company/Application.java" />
       </list>
     </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
-        <option value="$PROJECT_DIR$/U1M3L1Katas.iml" />
+        <option value="$PROJECT_DIR$/U1M3L3Katas.iml" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" />
         <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
@@ -81,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -91,56 +90,55 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="U1M3L1Katas" type="b2602c69:ProjectViewProjectNode" />
-              <item name="U1M3L1Katas" type="462c0819:PsiDirectoryNode" />
+              <item name="U1M3L3Katas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="U1M3L3Katas" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -151,10 +149,10 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -169,9 +167,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M3L1Katas" />
+  <component name="RunManager" selected="JUnit.ApplicationTest">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Application" />
+      <module name="U1M3L3Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="U1M3L3Katas" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -179,7 +190,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="com.company.ApplicationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,7 +198,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.ApplicationTest" />
+        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -196,29 +208,44 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b9f37d7-31c8-4d91-8a4e-beae2679d0f7" name="Default Changelist" comment="" />
-      <created>1566272428920</created>
+      <changelist id="a8cf7ee6-4753-435e-b901-b17dec8ca57c" name="Default Changelist" comment="" />
+      <created>1566317714054</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566272428920</updated>
+      <updated>1566317714054</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2019.08.19 at 23h 43m 10s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 47m 34s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 47m 43s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 48m 40s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 50m 18s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 52m 06s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 52m 47s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 52m 24s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 55m 34s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 54m 01s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 54m 16s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 54m 38s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 56m 21s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 57m 15s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ApplicationTest - 2019.08.20 at 12h 58m 22s.xml">
+      <configuration name="ApplicationTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -255,24 +282,27 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Pets.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="198">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/ApplicationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+        <state relative-caret-position="155">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="295">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

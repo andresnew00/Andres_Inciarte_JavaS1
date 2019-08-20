@@ -119,34 +119,33 @@
          assertEquals(failMessage, output3, App.reverse(intTest3));
          assertEquals(failMessage, output4, App.reverse(intTest4));
      }
- }
 
-//     @Test
-//     public void testLessThan5() {
-//         int[] out1 = new int[] {0, 1, 2, 3, 4};
-//         int[] out2 = new int[] {-3, -17};
-//         int[] out4 = new int[] {2, 4, 3, 1, 3};
-//
-//         ArrayList<Integer> output1 = new ArrayList<>();
-//         for(int num : out1) {
-//             output1.add(num);
-//         }
-//         ArrayList<Integer> output2  = new ArrayList<>();
-//         for(int num : out2) {
-//             output2.add(num);
-//         }
-//         ArrayList<Integer> output4  = new ArrayList<>();
-//         for(int num : out4) {
-//             output4.add(num);
-//         }
-//
-//         String failMessage = "Expected method to return an array with values less than 5";
-//         assertEquals(failMessage, output1, App.lessThanFive(intTest1));
-//         assertEquals(failMessage, output2, App.lessThanFive(intTest2));
-//         assertNull(failMessage, App.lessThanFive(intTest3));
-//         assertEquals(failMessage, output4, App.lessThanFive(intTest4));
-//     }
-// }
+     @Test
+     public void testLessThan5() {
+         int[] out1 = new int[] {0, 1, 2, 3, 4};
+         int[] out2 = new int[] {-3, -17};
+         int[] out4 = new int[] {2, 4, 3, 1, 3};
+
+         ArrayList<Integer> output1 = new ArrayList<>();
+         for(int num : out1) {
+             output1.add(num);
+         }
+         ArrayList<Integer> output2  = new ArrayList<>();
+         for(int num : out2) {
+             output2.add(num);
+         }
+         ArrayList<Integer> output4  = new ArrayList<>();
+         for(int num : out4) {
+             output4.add(num);
+         }
+
+         String failMessage = "Expected method to return an array with values less than 5";
+         assertEquals(failMessage, output1, App.lessThanFive(intTest1));
+         assertEquals(failMessage, output2, App.lessThanFive(intTest2));
+         assertNull(failMessage, App.lessThanFive(intTest3));
+         assertEquals(failMessage, output4, App.lessThanFive(intTest4));
+     }
+ }
 
 //     @Test
 //     public void testSplitAt5() {

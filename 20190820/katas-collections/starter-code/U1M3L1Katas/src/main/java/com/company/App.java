@@ -74,7 +74,7 @@ public class App {
                 // allows us to go from 0 to length - 1 in order without additional variables
 //                lessThan[lessThan.length - numLessThanFive] = num;
                 int indexPlace = Math.abs(lessThan.size() - numLessThanFive);
-                lessThan.add(num);
+                lessThan.add( num);
                 numLessThanFive--;
 
             }
