@@ -12,7 +12,7 @@ This assessment consists of several coding exercises that evaluate your understa
 
 Create your solution in an IntelliJ project called ```ConverterInterface```.
 
-In this exercise you will create two differnt implementations of the following interface. The first implementation must use if/else/else if statements and be called ```ConverterIf```. The second implementation must use switch statements and be called ```ConverterSwitch```.
+In this exercise you will create two different implementations of the following interface. The first implementation must use if/else/else if statements and be called ```ConverterIf```. The second implementation must use switch statements and be called ```ConverterSwitch```.
 
 Once you have your classes written, create a class called ```ConverterApplication``` which has your `main` method. In that main method, instantiate and use both the `ConverterIf` and `ConverterSwitch` classes.
 
