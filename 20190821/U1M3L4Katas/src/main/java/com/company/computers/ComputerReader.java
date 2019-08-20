@@ -8,6 +8,7 @@ import java.util.List;
 public class ComputerReader {
 
     public static void main(String[] args) {
+
         try {
             List<Computer> pcSpecs =
                     new CsvToBeanBuilder<Computer>(new FileReader("computers.csv")).withType(Computer.class).build().parse();
