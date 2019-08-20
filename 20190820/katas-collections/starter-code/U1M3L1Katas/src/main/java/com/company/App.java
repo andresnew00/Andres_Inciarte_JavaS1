@@ -42,18 +42,16 @@ public class App {
 
         for(int i = 0; i < numbers.size(); i++) {
 
-            //TODO THIS
             // length - (i + 1) is the n-th to last element
             // so when i = 0, it would be the last element
             // when i = 3, it would be the fourth to last element since i=3 is the 4th element, etc
 //            reversed[i] = numbers[ numbers.length - (i + 1) ];
-            reversed.size() = numbers.size(numbers.size() - (i + 1));
+            reversed.add(numbers.get(numbers.size() - (i + 1)));
         }
 
         return reversed;
     }
-
-    public static int[] lessThanFive(int[] numbers) {
+    public static List<Integer> lessThanFive(List<Integer> numbers) {
 
         int numLessThanFive = 0;
 
@@ -67,51 +65,23 @@ public class App {
             return null;
         }
 
-        int[] lessThan = new int[numLessThanFive];
+        List<Integer> lessThan = new ArrayList<>();
 
-        for(int num : numbers) {
+        for(int num = 0 ; num < lessThan.size(); num++) {
             if ( num < 5 ) {
-                //TODO THIS
+
                 // subtracting numLessThanFive from length then decrementing numLessThanFive
                 // allows us to go from 0 to length - 1 in order without additional variables
-                lessThan[lessThan.length - numLessThanFive] = num;
+//                lessThan[lessThan.length - numLessThanFive] = num;
+                int indexPlace = Math.abs(lessThan.size() - numLessThanFive);
+                lessThan.add(num);
                 numLessThanFive--;
+
             }
         }
 
         return lessThan;
     }
-//    public static List<Integer> lessThanFive(List<Integer> numbers) {
-//
-//        int numLessThanFive = 0;
-//
-//        for(int num : numbers) {
-//            if ( num < 5 ) {
-//                numLessThanFive++;
-//            }
-//        }
-//
-//        if ( numLessThanFive == 0 ) {
-//            return null;
-//        }
-//
-//        List<Integer> lessThan = new ArrayList<>();
-//
-//        for(int num = 0 ; num < lessThan.size(); num++) {
-//            if ( num < 5 ) {
-//
-//                // subtracting numLessThanFive from length then decrementing numLessThanFive
-//                // allows us to go from 0 to length - 1 in order without additional variables
-////                lessThan[lessThan.length - numLessThanFive] = num;
-//                int indexPlace = Math.abs(lessThan.size() - numLessThanFive);
-//                lessThan.set(indexPlace, num);
-//                numLessThanFive--;
-//
-//            }
-//        }
-//
-//        return lessThan;
-//    }
 
     //challenge
     public static int[][] splitAtFive(int[] numbers) {

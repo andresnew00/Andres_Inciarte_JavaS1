@@ -83,43 +83,43 @@
          assertEquals(failMessage, output2, App.swapFirstAndLast(stringTest2));
          assertEquals(failMessage, output3, App.swapFirstAndLast(stringTest3));
      }
+
+
+     @Test
+     public void testReverse() {
+         int[] out1 = new int[]{7, 6, 5, 4, 3, 2, 1, 0};
+         int[] out2 = new int[]{-17, -3};
+         int[] out3 = new int[]{7, 102, 2323, 55};
+         int[] out4 = new int[]{112, 101, 12, 37,
+                 24, 3, 89, 17,
+                 43, 56, 13, 10,
+                 9, 1, 6, 7,
+                 3, 5, 4, 2};
+
+         ArrayList<Integer> output1 = new ArrayList<>();
+         for (int num : out1) {
+             output1.add(num);
+         }
+         ArrayList<Integer> output2 = new ArrayList<>();
+         for (int num : out2) {
+             output2.add(num);
+         }
+         ArrayList<Integer> output3 = new ArrayList<>();
+         for (int num : out3) {
+             output3.add(num);
+         }
+         ArrayList<Integer> output4 = new ArrayList<>();
+         for (int num : out4) {
+             output4.add(num);
+         }
+
+         String failMessage = "Expected method to reverse an array of ints";
+         assertEquals(failMessage, output1, App.reverse(intTest1));
+         assertEquals(failMessage, output2, App.reverse(intTest2));
+         assertEquals(failMessage, output3, App.reverse(intTest3));
+         assertEquals(failMessage, output4, App.reverse(intTest4));
+     }
  }
-
-
-//     @Test
-//     public void testReverse() {
-//         int[] out1 = new int[] {7, 6, 5, 4, 3, 2, 1, 0};
-//         int[] out2 = new int[] {-17, -3};
-//         int[] out3 = new int[] {7, 102, 2323, 55};
-//         int[] out4 = new int[] {112, 101, 12, 37,
-//                 24, 3, 89, 17,
-//                 43, 56, 13, 10,
-//                 9, 1, 6, 7,
-//                 3, 5, 4, 2};
-//
-//         ArrayList<Integer> output1 = new ArrayList<>();
-//         for(int num : out1) {
-//             output1.add(num);
-//         }
-//         ArrayList<Integer> output2  = new ArrayList<>();
-//         for(int num : out2) {
-//             output2.add(num);
-//         }
-//         ArrayList<Integer> output3  = new ArrayList<>();
-//         for(int num : out3) {
-//             output3.add(num);
-//         }
-//         ArrayList<Integer> output4  = new ArrayList<>();
-//         for(int num : out4) {
-//             output4.add(num);
-//         }
-//
-//         String failMessage = "Expected method to reverse an array of ints";
-//         assertEquals(failMessage, output1, App.reverse(intTest1));
-//         assertEquals(failMessage, output2, App.reverse(intTest2));
-//         assertEquals(failMessage, output3, App.reverse(intTest3));
-//         assertEquals(failMessage, output4, App.reverse(intTest4));
-//     }
 
 //     @Test
 //     public void testLessThan5() {

@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c58d31fb-afea-4046-8de1-53dae1eb4dcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../largest-cities/src/main/java/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/src/main/java/ConverterApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/src/main/java/ConverterIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/src/main/java/ConverterInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/src/main/java/ConverterSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/src/main/java/MonthConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/src/main/java/MonthConverterIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/target/classes/MonthConverterIf.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M1-Summative-Inciarte-Andres/target/classes/MonthConverterIf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/u1-m2-summative-assessment.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/u1-m2-summative-assessment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/LinkedListApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/main/java/com/company/LinkedListApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/src/test/java/com/company/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/target/classes/com/company/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/target/classes/com/company/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/target/test-classes/com/company/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../katas-collections/starter-code/U1M3L1Katas/target/test-classes/com/company/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -159,6 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
