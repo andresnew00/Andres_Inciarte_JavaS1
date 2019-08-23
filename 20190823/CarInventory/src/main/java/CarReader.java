@@ -33,7 +33,6 @@ public class CarReader {
                 carList.add(newCar);
                 for (Car car : carList) {
                     System.out.println(car.toString());
-                    ;
                 }
 
                 //remove car

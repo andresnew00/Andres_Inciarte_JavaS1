@@ -1,12 +1,9 @@
 import java.util.ArrayList;
-import java.util.List;
-
+import java.util.Collections;
 import java.util.Random;
 
-public class BasicArrayLists2 {
-
+public class GettingtheLargestValue {
     public static void main(String[] args) {
-
         ArrayList<Integer> intArray = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
@@ -19,9 +16,7 @@ public class BasicArrayLists2 {
 
         System.out.println("ArrayList: " + intArray);
 
-        Object obj = Collections.max(arrayList);
-        System.out.println(obj);
-
+        Object objInt = Collections.max(intArray);
+        System.out.println("The largest value is " + objInt);
     }
-
 }
