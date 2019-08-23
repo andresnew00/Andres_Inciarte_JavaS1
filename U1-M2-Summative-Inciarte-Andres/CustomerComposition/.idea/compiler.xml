@@ -9,5 +9,8 @@
         <module name="CustomerComposition" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CustomerComposition" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

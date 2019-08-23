@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff73f36-7854-435b-962e-0597c9683709" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../20190823/pbd/AndresInciarteU1M3L6PBD/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190823/pbd/AndresInciarteU1M3L6PBD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190823/pbd/AndresInciarteU1M3L6PBD/src/main/java/GettingtheLargestValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190823/pbd/AndresInciarteU1M3L6PBD/src/main/java/LocatingtheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BasicArrayLists2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BasicArrayLists2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/BasicArrayLists2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/BasicArrayLists2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../20190823/CarInventory/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190823/CarInventory/src/main/java/CarReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../20190823/CarInventory/target/classes/CarReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190823/CarInventory/target/classes/CarReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/CustomerComposition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -180,7 +181,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25432277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e7f56f0-27d2-40d5-bc65-432c61115882" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../pbd/AndresInciarteU1M3L6PBD/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pbd/AndresInciarteU1M3L6PBD/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pbd/AndresInciarteU1M3L6PBD/src/main/java/GettingtheLargestValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pbd/AndresInciarteU1M3L6PBD/src/main/java/LocatingtheLargestValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/src/main/java/BasicArrayLists2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/src/main/java/BasicArrayLists2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/target/classes/BasicArrayLists2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/target/classes/BasicArrayLists2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CarReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/CustomerComposition.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +23,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
@@ -34,6 +34,14 @@
               <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#512#513#0" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#639#640#0" expanded="true" />
+                <element signature="e#666#667#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
+                <element signature="e#1242#1243#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,14 +50,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="68">
+              <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#904#1176#1" />
-                <element signature="e#1202#1608#1" />
                 <element signature="e#1372#1567#1" />
-                <element signature="e#6833#7211#1" />
               </folding>
             </state>
           </provider>
@@ -58,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
+            <state relative-caret-position="960">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="e#1163#1164#0" expanded="true" />
                 <element signature="e#1230#1231#0" expanded="true" />
@@ -94,14 +99,6 @@
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -195,7 +192,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25432277" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25432277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -204,7 +201,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56855345" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.56855345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,7 +230,15 @@
           <properties class="CarReader" method="main">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/CarReader.java</url>
+          <line>68</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -249,20 +254,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#413#414#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="960">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding>
             <element signature="e#1163#1164#0" expanded="true" />
             <element signature="e#1230#1231#0" expanded="true" />
@@ -270,16 +265,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#512#513#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1242#1243#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="67" column="41" lean-forward="true" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#904#1176#1" />
-            <element signature="e#1202#1608#1" />
             <element signature="e#1372#1567#1" />
-            <element signature="e#6833#7211#1" />
           </folding>
         </state>
       </provider>

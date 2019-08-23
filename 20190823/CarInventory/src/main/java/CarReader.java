@@ -18,12 +18,15 @@ public class CarReader {
 
         boolean continueCode = true;
 
-        while(continueCode) {
+        int userInput;
+        int userNum;
+
+        while (continueCode) {
 
             System.out.println("Please select what you would like to do: " +
                     "\n 1 - add \n 2 - delete " +
                     "\n 3 - search \n 4 - display \n 0 - Exit");
-            int userInput = Integer.parseInt(scanner.nextLine());
+            userInput = Integer.parseInt(scanner.next());
 
             // add new car
             if (userInput == 1) {
@@ -48,16 +51,19 @@ public class CarReader {
 
                 // search
             } else if (userInput == 3) {
+                scanner = new Scanner(System.in);
 
                 System.out.println("What type of search would you like to do?" +
                         "\n 1 - Make \n 2 - Model " +
                         "\n 3 - Year \n 4 - Color \n 5 - Miles (less than)");
-                int userNum = Integer.parseInt(scanner.nextLine());
+                userNum = Integer.parseInt(scanner.nextLine());
 
                 switch (userNum) {
                     case 1:
                         System.out.print("Please enter the make: ");
+
                         String userMake = scanner.next();
+
                         carList
                                 .stream()
                                 .filter(c -> c.getMake().equals(userMake))
@@ -135,8 +141,9 @@ public class CarReader {
                                 });
                         break;
 
-                        default:
-                            System.out.println("Please enter a valid number");
+                    default:
+                        System.out.println("Please enter a valid number");
+                        break;
 
                 }
                 //display
@@ -152,9 +159,9 @@ public class CarReader {
                 //not a valid number
             } else if (userInput == 0) {
                 continueCode = false;
-            } else{
-                    System.out.println("Please enter a valid number.");
-                }
+            } else {
+                System.out.println("Please enter a valid number.");
+            }
 
         }
 
