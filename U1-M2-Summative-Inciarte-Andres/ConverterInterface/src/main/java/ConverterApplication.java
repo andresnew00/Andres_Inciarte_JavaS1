@@ -4,13 +4,13 @@ public class ConverterApplication {
 
         //ConverterIf Instantiation
         ConverterIf convertIf = new ConverterIf();
-        convertIf.convertDay(4);
-        convertIf.convertMonth(5);
+        System.out.println(convertIf.convertDay(4));
+        System.out.println(convertIf.convertMonth(5));
 
         //ConverterSwitch Instantiation
         ConverterSwitch convertSwitch = new ConverterSwitch();
-        convertSwitch.convertDay(2);
-        convertSwitch.convertMonth(1);
+        System.out.println(convertSwitch.convertDay(2));
+        System.out.println(convertSwitch.convertMonth(1));
     }
 
 }
