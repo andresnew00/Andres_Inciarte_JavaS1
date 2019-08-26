@@ -9,5 +9,8 @@
         <module name="RPGInheritance" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="RPGInheritance" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

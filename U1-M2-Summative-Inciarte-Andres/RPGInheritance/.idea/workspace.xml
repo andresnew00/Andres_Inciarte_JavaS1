@@ -1,30 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f22c0f35-d4b6-4620-b691-a9b315a8e01c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/IceCreamFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/IceCreamPOS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Constable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Farmer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5a6d1ae2-f435-4ac4-8cca-f36d6da00014" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/U1M3L1Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/AndresInciarteU1M2L1PBD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/AndresInciarteU1M2L1PBD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/ConverterInterface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPGInheritance.iml" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,49 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Character.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding>
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#696#697#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#1003#1004#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1104#1105#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1270#1271#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="e#245#246#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -87,8 +69,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Constable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -97,47 +88,21 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="38" selection-start-column="38" selection-end-column="38" />
-              <folding>
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-              </folding>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/Constable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Warrior.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Farmer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Character.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="227" />
+    <option name="y" value="129" />
+    <option name="width" value="915" />
+    <option name="height" value="557" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,12 +141,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -200,16 +163,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f22c0f35-d4b6-4620-b691-a9b315a8e01c" name="Default Changelist" comment="" />
-      <created>1566516610363</created>
+      <changelist id="5a6d1ae2-f435-4ac4-8cca-f36d6da00014" name="Default Changelist" comment="" />
+      <created>1566759403551</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566516610363</updated>
+      <updated>1566759403551</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -241,70 +204,31 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Constable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Constable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="38" selection-start-column="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-          </folding>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Character.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding>
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

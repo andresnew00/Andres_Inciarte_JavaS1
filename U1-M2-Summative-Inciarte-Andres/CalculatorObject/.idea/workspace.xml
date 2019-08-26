@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c76a5c-c119-4182-9789-12927752227b" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="f0576940-2032-4c56-9e3a-003b8cb27fa8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/U1M3L1Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculatorObject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CalculatorObject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,32 +48,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="528">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -48,24 +74,10 @@
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -73,6 +85,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,12 +104,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CalculatorObject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CalculatorObject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,30 +134,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CalculatorObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CalculatorObject" />
-      <module name="CalculatorObject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CalculatorObject" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e0c76a5c-c119-4182-9789-12927752227b" name="Default Changelist" comment="" />
-      <created>1566346092198</created>
+      <changelist id="f0576940-2032-4c56-9e3a-003b8cb27fa8" name="Default Changelist" comment="" />
+      <created>1566758758378</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566346092198</updated>
+      <updated>1566758758378</updated>
     </task>
     <servers />
   </component>
@@ -146,43 +151,39 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25432277" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32955974" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32955974" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Codota" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CalculatorObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="528">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
         </state>
       </provider>
     </entry>

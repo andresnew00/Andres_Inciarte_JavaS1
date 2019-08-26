@@ -1,4 +1,4 @@
-public class BillingAddress extends ShippingAddress{
+public class BillingAddress {
 
     String street1;
     String street2;

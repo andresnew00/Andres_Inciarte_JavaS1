@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b9f37d7-31c8-4d91-8a4e-beae2679d0f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" afterDir="false" />
+    <list default="true" id="7e03ebc7-b478-4652-a3da-38fb8de35d75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/U1M3L1Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,77 +41,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AppTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
-              <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
+            <state relative-caret-position="-2095">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/company/AppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/App.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/U1M3L1Katas.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,7 +68,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,6 +126,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -169,76 +146,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M3L1Katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.AppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.AppTest" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7b9f37d7-31c8-4d91-8a4e-beae2679d0f7" name="Default Changelist" comment="" />
-      <created>1566272428920</created>
+      <changelist id="7e03ebc7-b478-4652-a3da-38fb8de35d75" name="Default Changelist" comment="" />
+      <created>1566758138843</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566272428920</updated>
+      <updated>1566758138843</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="AppTest - 2019.08.19 at 23h 43m 10s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 47m 43s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 50m 18s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 52m 47s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest - 2019.08.20 at 08h 55m 34s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32955974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32955974" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,24 +191,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LinkedListApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="120" column="6" selection-start-line="120" selection-start-column="6" selection-end-line="120" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="-2095">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>

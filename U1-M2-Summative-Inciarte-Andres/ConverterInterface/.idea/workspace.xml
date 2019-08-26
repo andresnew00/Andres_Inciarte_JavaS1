@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18a2cf2a-155e-4f01-8d8d-c7981959f44a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190823/pbd/AndresInciarteU1M3L6PBD/src/main/java/GettingtheLargestValue.java" afterDir="false" />
+    <list default="true" id="5d2f44f4-a72f-4093-8e3b-0bcb7dc44e2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/U1M3L1Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/src/main/java/BasicArrayLists2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/src/main/java/BasicArrayLists2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,38 +48,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterSwitch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterIf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ConverterInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConverterSwitch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -64,9 +80,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -74,7 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,6 +121,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -128,16 +145,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="18a2cf2a-155e-4f01-8d8d-c7981959f44a" name="Default Changelist" comment="" />
-      <created>1566521402977</created>
+      <changelist id="5d2f44f4-a72f-4093-8e3b-0bcb7dc44e2f" name="Default Changelist" comment="" />
+      <created>1566758420545</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566521402977</updated>
+      <updated>1566758420545</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -169,31 +186,24 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConverterSwitch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConverterInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ConverterIf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ConverterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConverterSwitch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

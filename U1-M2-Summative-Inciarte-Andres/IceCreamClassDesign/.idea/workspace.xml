@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c7e0679-a194-4c08-8ccb-920794b505b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IceCreamFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IceCreamPOS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="8220bf4a-8787-45d9-a751-0232d996bdbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/U1M3L1Katas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/AndresInciarteU1M2L1PBD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/AndresInciarteU1M2L1PBD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/ConverterInterface.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/CustomerComposition.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,104 +50,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
-  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamPOS.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-              <folding>
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#723#724#0" expanded="true" />
-                <element signature="e#767#768#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#896#897#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1078#1079#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding>
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#951#952#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1006#1007#0" expanded="true" />
-                <element signature="e#1043#1044#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1195#1196#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/IceCreamPOS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IceCreamFactory.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -131,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,14 +107,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
@@ -189,11 +131,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c7e0679-a194-4c08-8ccb-920794b505b1" name="Default Changelist" comment="" />
-      <created>1566513081623</created>
+      <changelist id="8220bf4a-8787-45d9-a751-0232d996bdbd" name="Default Changelist" comment="" />
+      <created>1566759139824</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566513081623</updated>
+      <updated>1566759139824</updated>
     </task>
     <servers />
   </component>
@@ -206,7 +148,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15489914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -230,142 +172,19 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamPOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1078#1079#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/IceCreamFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1195#1196#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>IceCreamClassDesign</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
