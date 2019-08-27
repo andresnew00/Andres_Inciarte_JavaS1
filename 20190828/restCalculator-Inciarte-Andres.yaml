@@ -1,0 +1,101 @@
+openapi: 3.0.0
+info:
+  title: REST Calculator
+  description:
+    A simple calculator that performs calculations by imputting two operants
+  version: 0.0.1
+servers:
+  - url: 'http://localhost:8080'
+    description: Local dev server
+paths:
+  /add:
+    post:
+      summary: JSON object with operand1 and operand2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Operands'
+      responses:
+        '201':
+          description: Sum of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Operands'
+        '400':
+          description: missing operand.
+        '422':
+          description: Incomplete, operands are not both numbers       
+  /mult:
+    post:
+      summary: JSON object with operand1 and operand2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Operands'
+      responses:
+        '201':
+          description: Product of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Operands'
+        '400':
+          description: missing operand.
+        '422':
+          description: Incomplete, operands are not both numbers
+  /subtract:
+    post:
+      summary: JSON object with operand1 and operand2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Operands'
+      responses:
+        '201':
+          description: Difference of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Operands'
+        '400':
+          description: missing operand.
+        '422':
+          description: Incomplete, operands are not both numbers        
+  /divide:
+    post:
+      summary: JSON object with operand1 and operand2
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Operands'
+      responses:
+        '201':
+          description: Quotient of operand1 and operand2
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Operands'
+        '400':
+          description: missing operand.
+        '422':
+          description: Incomplete, operands are not both numbers
+components:
+  schemas:
+    Operands:
+      properties:
+        operand1:
+          type: integer
+        operand2:
+          type: integer
+      required: 
+        - operand1
+        - operand2

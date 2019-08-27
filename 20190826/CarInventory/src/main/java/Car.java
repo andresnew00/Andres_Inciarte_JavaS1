@@ -45,16 +45,16 @@ public class Car {
         Color = color;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Car{" +
-//                "Make='" + Make + '\'' +
-//                ", Model='" + Model + '\'' +
-//                ", Year=" + Year +
-//                ", Color='" + Color + '\'' +
-//                ", MilesDriven=" + MilesDriven +
-//                '}';
-//    }
+    @Override
+    public String toString() {
+        return "Car{" +
+                "Make='" + Make + '\'' +
+                ", Model='" + Model + '\'' +
+                ", Year=" + Year +
+                ", Color='" + Color + '\'' +
+                ", MilesDriven=" + MilesDriven +
+                '}';
+    }
 
     public int getMilesDriven() {
         return MilesDriven;

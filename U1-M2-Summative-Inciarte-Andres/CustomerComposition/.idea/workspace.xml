@@ -2,51 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d5999b3-633f-40de-8612-69ec42745fad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/CarTrackerInClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190826/CarInventory/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../IceCreamClassDesign/IceCreamDesign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalculatorObject/CalculatorObject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BillingAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPGInheritance/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPGInheritance/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPGInheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RPGInheritance/RPGInheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../RPGInheritance/RPGInheritance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/cars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/src/main/java/CarReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/CarMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/CarMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/CarReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/target/classes/CarReader.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,9 +54,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">

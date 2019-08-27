@@ -7,14 +7,8 @@ public class CarReader {
 
         Scanner scanner = new Scanner(System.in);
 
-//        Car car1 = new Car("Honda", "Civic", 1997, "Green", 200);
-//        CarMethods.carList.add(car1);
-//        Car car2 = new Car("Honda", "Accord", 2010, "Brown", 20000);
-//        CarMethods.carList.add(car2);
-//        Car car3 = new Car("Toyota", "Corolla", 2001, "Blue", 40);
-//        CarMethods.carList.add(car3);
-
-//        CarMethods.writeDocument();
+        // first read of the file this should be able to read the current cars created
+        CarMethods.read();
 
         boolean continueCode = true;
 

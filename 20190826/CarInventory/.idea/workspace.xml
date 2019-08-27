@@ -2,51 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b23a8f1-f9da-499d-9d13-6ba0621e1b56" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../20190823/CarInventory/CarTrackerInClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_woodstox_woodstox_core_5_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_opencsv_opencsv_4_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_text_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarTrackerInClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/IceCreamDesign.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190820/katas-collections/starter-code/U1M3L1Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190822/pbd/AndresInciarteU1M2L1PBD/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190823/CarInventory/src/main/java/CarMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/CalculatorObject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CalculatorObject/CalculatorObject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/ConverterInterface/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/cars.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CarMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CarMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CarReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CarReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/src/main/java/BillingAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/IceCreamClassDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/RPGInheritance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/RPGInheritance/RPGInheritance.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -65,13 +29,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="416">
+              <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#addCar#0;class#CarMethods#0" />
                 <element signature="method#removeCar#0;class#CarMethods#0" />
                 <element signature="method#display#0;class#CarMethods#0" />
                 <element signature="method#searchBy#0;class#CarMethods#0" />
+                <element signature="method#read#0;class#CarMethods#0" />
+                <element signature="method#write#0;class#CarMethods#0" />
               </folding>
             </state>
           </provider>
@@ -80,10 +47,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="288">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#931#1014#1" />
+                <element signature="e#1032#1118#1" />
+                <element signature="e#1157#1259#1" />
+                <element signature="e#7146#7199#1" />
+                <element signature="e#7205#7288#1" />
               </folding>
             </state>
           </provider>
@@ -92,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="56" selection-end-column="7" />
+            <state relative-caret-position="816">
+              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -112,10 +84,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/CarReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/CarMethods.java" />
-        <option value="$PROJECT_DIR$/cars.json" />
         <option value="$PROJECT_DIR$/src/main/java/Car.java" />
+        <option value="$PROJECT_DIR$/cars.json" />
+        <option value="$PROJECT_DIR$/src/main/java/CarMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CarReader.java" />
       </list>
     </option>
   </component>
@@ -127,9 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="x" value="726" />
+    <option name="width" value="714" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -214,7 +186,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="726" y="0" width="714" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -222,7 +194,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5241692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -246,30 +218,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CarMethods.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CarMethods.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CarMethods.java</url>
-          <line>59</line>
-          <properties />
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -281,35 +229,43 @@
     <entry file="file://$PROJECT_DIR$/motorcycles.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#removeCar#0;class#CarMethods#0" />
-            <element signature="method#display#0;class#CarMethods#0" />
-            <element signature="method#searchBy#0;class#CarMethods#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cars.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="47" selection-start-line="47" selection-start-column="2" selection-end-line="56" selection-end-column="7" />
+        <state relative-caret-position="816">
+          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#addCar#0;class#CarMethods#0" />
+            <element signature="method#removeCar#0;class#CarMethods#0" />
+            <element signature="method#display#0;class#CarMethods#0" />
+            <element signature="method#searchBy#0;class#CarMethods#0" />
+            <element signature="method#read#0;class#CarMethods#0" />
+            <element signature="method#write#0;class#CarMethods#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="288">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#931#1014#1" />
+            <element signature="e#1032#1118#1" />
+            <element signature="e#1157#1259#1" />
+            <element signature="e#7146#7199#1" />
+            <element signature="e#7205#7288#1" />
           </folding>
         </state>
       </provider>

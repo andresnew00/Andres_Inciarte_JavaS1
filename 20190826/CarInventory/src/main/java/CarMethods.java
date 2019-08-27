@@ -1,11 +1,14 @@
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Scanner;
 
 public class CarMethods {
@@ -34,32 +37,13 @@ public class CarMethods {
         int userMiles = Integer.parseInt(scanner.next());
 
         carList.add(new Car(userCarMake, userModel, userYear, userColor, userMiles));
-//        for (Car car : carList) {
-//            System.out.println(car.toString());
-//        }
-
-        PrintWriter writer = null;
-
-        try {
-            ObjectMapper mapper = new ObjectMapper();
-            String jsonCarsList = mapper.writeValueAsString(carList);
 
 
-            writer = new PrintWriter(new FileWriter("cars.json"));
-
-            writer.println(jsonCarsList);
-
-
-        } catch (JsonProcessingException e) {
-            System.out.println("ERROR: Trouble converting object to JSON string: " + e.getMessage());
-        } catch (IOException e) {
-            System.out.println("ERROR: Could not write to file: " + e.getMessage());
-        } finally {
-            if (writer != null) {
-                writer.flush();
-                writer.close();
-            }
+        for (Car car : carList) {
+            System.out.println(car.toString());
         }
+
+        CarMethods.write();
 
     }
 
@@ -77,7 +61,6 @@ public class CarMethods {
                 iterator.remove();
             }
         }
-
     }
 
     //this method only displays a message when displaying the list
@@ -86,9 +69,12 @@ public class CarMethods {
             System.out.println("There are no cars to display");
         } else {
             System.out.println("Displaying all cars in list: ");
-            for (Car car : carList) {
-                System.out.println(car.toString());
-            }
+            CarMethods.read();
+//            for (Car car : carList) {
+//                System.out.println(car.toString());
+//            }
+
+
         }
 
     }
@@ -190,9 +176,53 @@ public class CarMethods {
         }
     }
 
-    public static void writeDocument() {
+    public static void read() {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+
+            List<Car> jsonList;
+
+            jsonList = mapper.readValue(new File("cars.json"), new TypeReference<List<Car>>(){});
+
+            for (Car car : jsonList) {
+                System.out.println("================");
+                System.out.println(car.getMake());
+                System.out.println(car.getModel());
+                System.out.println(car.getColor());
+                System.out.println(car.getYear());
+                System.out.println(car.getMilesDriven());
+            }
+
+        } catch (IOException e) {
+            System.out.println("ERROR: Problem encountered reading JSON file - " + e.getMessage());
+        }
+
+    }
+
+    public static void write(){
+
+        PrintWriter writer = null;
+
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            String jsonCarsList = mapper.writeValueAsString(carList);
 
 
+            writer = new PrintWriter(new FileWriter("cars.json", true));
+
+            writer.println(jsonCarsList);
+
+
+        } catch (JsonProcessingException e) {
+            System.out.println("ERROR: Trouble converting object to JSON string: " + e.getMessage());
+        } catch (IOException e) {
+            System.out.println("ERROR: Could not write to file: " + e.getMessage());
+        } finally {
+            if (writer != null) {
+                writer.flush();
+                writer.close();
+            }
+        }
     }
 }
 

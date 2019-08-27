@@ -1,0 +1,27 @@
+openapi: 3.0.0
+info:
+  title: Hello, REST
+  description: Service that returns a hello message back to you.
+  version: 0.0.1
+servers: 
+    - url: http//localhost:8080
+      description: Local dev server
+paths:
+  /hello/{name}:
+    get:
+      summary: returns a hello with name back to you.
+      description: A simple service that returns a greeting to you.
+      parameters: 
+        - name: name
+          in: path
+          required: true
+          description: The value you would like to have echoed back to you.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Hello, {name}
+          content:
+            application/json:
+              schema:
+                type: string
