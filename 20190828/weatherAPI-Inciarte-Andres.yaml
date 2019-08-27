@@ -18,7 +18,7 @@ paths:
           required: true
           description: The zipcode of the area you would like to recieve information on.
           schema:
-            type: string
+            type: object
       responses:
         '200':
           description: JSON Object for temperature
@@ -36,7 +36,7 @@ paths:
           required: true
           description: data retrieved for the location picked
           schema:
-            type: string
+            type: object
       responses:
         '200':
           description: JSON Object for temperature, wind speed, wind direction, skies, and precipitation.
