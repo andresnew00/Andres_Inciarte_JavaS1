@@ -1,23 +1,22 @@
 package com.company.WeatherWebService.model;
 
-public class Temperature extends Conditions {
-    @Override
+public class Temperature {
+    private int fahrenheit;
+    private int celsius;
+
     public int getFahrenheit() {
-        return super.getFahrenheit();
+        return fahrenheit;
     }
 
-    @Override
     public void setFahrenheit(int fahrenheit) {
-        super.setFahrenheit(fahrenheit);
+        this.fahrenheit = fahrenheit;
     }
 
-    @Override
     public int getCelsius() {
-        return super.getCelsius();
+        return celsius;
     }
 
-    @Override
     public void setCelsius(int celsius) {
-        super.setCelsius(celsius);
+        this.celsius = celsius;
     }
 }

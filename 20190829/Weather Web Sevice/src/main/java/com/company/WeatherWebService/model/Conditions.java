@@ -2,27 +2,19 @@ package com.company.WeatherWebService.model;
 
 public class Conditions {
 
-    int fahrenheit;
-    int celsius;
-    int windSpeed;
-    String windDirection;
-    String skies;
-    String precipitation;
+    private int windSpeed;
+    private String windDirection;
+    private String skies;
+    private String precipitation;
 
-    public int getFahrenheit() {
-        return fahrenheit;
+    public Temperature temp;
+
+    public Temperature getTemp() {
+        return temp;
     }
 
-    public void setFahrenheit(int fahrenheit) {
-        this.fahrenheit = fahrenheit;
-    }
-
-    public int getCelsius() {
-        return celsius;
-    }
-
-    public void setCelsius(int celsius) {
-        this.celsius = celsius;
+    public void setTemp(Temperature temp) {
+        this.temp = temp;
     }
 
     public int getWindSpeed() {

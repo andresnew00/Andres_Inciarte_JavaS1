@@ -10,14 +10,32 @@ public class WeatherController {
 
     @RequestMapping(value = "/temp/{zipcode}", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    public Temperature currentTemperature(@PathVariable Temperature temperature) {
-        return temperature;
+    public Temperature retTemperature(@PathVariable int zipcode) {
+        Temperature currentTemperature = new Temperature();
+        currentTemperature.setCelsius(80);
+        currentTemperature.setFahrenheit(26);
+        return currentTemperature;
     }
 
     @RequestMapping(value = "/conditions/{zipcode}", method = RequestMethod.GET)
     @ResponseStatus(value = HttpStatus.OK)
-    public Conditions currentConditions(@PathVariable Conditions conditions) {
-        return conditions;
+    public Conditions retConditions(@PathVariable int zipcode) {
+
+        Conditions currentWeather = new Conditions();
+
+        Temperature currentTemperature = new Temperature();
+
+        currentTemperature.setFahrenheit(100);
+        currentTemperature.setCelsius(40);
+
+        currentWeather.setTemp(currentTemperature);
+
+        currentWeather.setPrecipitation("High");
+        currentWeather.setSkies("Clear");
+        currentWeather.setWindDirection("North");
+        currentWeather.setWindSpeed(76);
+
+        return currentWeather;
     }
 
 }
