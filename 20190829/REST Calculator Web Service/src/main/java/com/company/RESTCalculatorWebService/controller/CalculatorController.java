@@ -12,25 +12,25 @@ public class CalculatorController {
     @RequestMapping(value = "/add", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public int addNumbers(@RequestBody @Valid Calculator calculator) {
-        return calculator.getAddResult();
+        return calculator.AddResult();
     }
 
     @RequestMapping(value = "/subtract", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public int subtractNumbers(@RequestBody @Valid Calculator calculator) {
-        return calculator.getSubtractResult();
+        return calculator.SubtractResult();
     }
 
     @RequestMapping(value = "/multiply", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public int multNumbers(@RequestBody @Valid Calculator calculator) {
-        return calculator.getMultiplyResult();
+        return calculator.MultiplyResult();
     }
 
     @RequestMapping(value = "/divide", method = RequestMethod.POST)
     @ResponseStatus(value = HttpStatus.CREATED)
     public int divideNumbers(@RequestBody @Valid Calculator calculator) {
-        return calculator.getDivideResult();
+        return calculator.DivideResult();
     }
 
 }
