@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b23a8f1-f9da-499d-9d13-6ba0621e1b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cars.json" beforeDir="false" afterPath="$PROJECT_DIR$/cars.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CarReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CarReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CarMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CarMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CarReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CarReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/CustomerComposition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M2-Summative-Inciarte-Andres/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,8 +91,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="726" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
@@ -186,7 +178,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="726" y="0" width="714" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -194,7 +186,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5241692" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -202,7 +194,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.32955974" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32955974" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32955974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32955974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
