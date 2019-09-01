@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Optional;
 
 @RestController
 public class CityController {
@@ -40,9 +39,9 @@ public class CityController {
     //Search cities by name
     @GetMapping(value = "/city/{name}")
     @ResponseStatus(value = HttpStatus.OK)
-    public List<City> getCity(@PathVariable String name) {
+    public Optional<City> getCity(@PathVariable String name) {
         return citiesList.stream()
                 .filter(c -> c.getName().contains(name))
-                .collect(Collectors.toList());
+                .findFirst(); // this method will return the first element of the stream search
     }
 }
