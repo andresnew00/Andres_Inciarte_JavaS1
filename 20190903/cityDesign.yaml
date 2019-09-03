@@ -1,0 +1,92 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: City List
+  description: An API to track of city information.
+  
+servers: 
+  - url: http://localhost:8080
+    description: Local dev server
+    
+paths:
+  /city:
+    post:
+      summary: Adds a new city
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Cities'
+      responses:
+        '200':
+          description: Added a new city successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+    get:
+      summary: retrieves all cities.
+      responses:
+        '200':
+          description: Retrieved list of cities
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Cities'
+                minimum: 1
+                
+  /city/{name}:
+    delete:
+      summary: Deletes a city.
+      parameters: 
+        - name: name
+          in: path
+          required: true
+          description: name of city you would like to delete.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Deleted city successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+    get:
+      summary: Get city by name
+      parameters: 
+        - name: name
+          in: path
+          required: true
+          description: name of city you would like to retrieve.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Retrieved city successfully.
+          content:
+            application/json:
+              schema:
+                type: object
+      
+components:
+  schemas:
+    Cities:
+      properties:
+        name:
+          type: string
+        state:
+          type: string
+        population:
+          type: integer
+          format: int64
+        isCapital:
+          type: boolean
+      required: 
+        - name
+        - state
+        - population
+        - isCapital

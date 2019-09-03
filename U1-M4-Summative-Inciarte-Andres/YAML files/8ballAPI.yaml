@@ -1,0 +1,38 @@
+openapi: 3.0.0
+info:
+  title: Word API
+  description: Get a response from the magic 8-ball, using magic 8-ball API
+  version: 0.0.1
+
+servers: 
+  - url: http://localhost:8080
+    description: Local dev server
+    
+paths:
+  /magic:
+    post:
+      summary: answers your question
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: string
+      responses:
+        '200':
+          description: question and answer from 8 ball.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Answer'
+components:
+  schemas:
+    Answer:
+      properties:
+        question:
+          type: string
+        answer:
+          type: string
+      required: 
+        - question
+        - answer

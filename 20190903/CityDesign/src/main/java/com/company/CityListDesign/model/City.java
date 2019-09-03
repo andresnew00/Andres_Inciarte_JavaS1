@@ -5,6 +5,15 @@ import javax.validation.constraints.NotNull;
 
 public class City {
 
+    // JSON Syntax
+    /* {
+        "name" : "name of city",
+        "state" : "name of state",
+        "population" : population amount,
+        "capital" : boolean
+        }
+     */
+
     @NotEmpty(message = "You must provide a city name.")
 
     private String name;

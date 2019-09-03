@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b23a8f1-f9da-499d-9d13-6ba0621e1b56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/model/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/CityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/CityController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/ControllerExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/ControllerExceptionHandler.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,7 +23,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="824">
+            <state relative-caret-position="853">
               <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -237,7 +236,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CarMethods.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="824">
+        <state relative-caret-position="853">
           <caret line="178" column="30" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
