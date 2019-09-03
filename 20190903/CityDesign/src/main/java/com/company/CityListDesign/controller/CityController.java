@@ -11,7 +11,12 @@ import java.util.Optional;
 @RestController
 public class CityController {
 
-    ArrayList<City> citiesList = new ArrayList<>();
+    //static arraylist would allow you to add information before been run
+    // you must also have a constructor in your model
+    static ArrayList<City> citiesList = new ArrayList<>();
+    static {
+        citiesList.add(new City(("hello", "state", 100, true));
+    }
 
     // Post: adding new city to arrayList
     @PostMapping(value = "/city")

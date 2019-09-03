@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed855ce4-b250-4b5d-9bc7-fea2dfadb600" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/AnswerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/ControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/QuoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/WordController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/model/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/model/Definition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/model/Quote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190826/CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Hello Web Service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Hello Web Service/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/model/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/model/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/CityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/target/classes/com/company/CityListDesign/controller/CityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/src/main/java/com/company/CityListDesign/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/AnswerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/AnswerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/QuoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/controller/QuoteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/model/Quote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../U1-M4-Summative-Inciarte-Andres/U1-M4-Summative-Inciarte-Andres/src/main/java/com/company/U1M4SummativeInciarteAndres/model/Quote.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -61,7 +52,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>

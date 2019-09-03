@@ -7,10 +7,15 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 @RestController
 public class AnswerController {
+
+    Map<String, String> mymap = new HashMap<>();
+
 
     @PostMapping(value = "/magic")
     @ResponseStatus(value = HttpStatus.OK)
