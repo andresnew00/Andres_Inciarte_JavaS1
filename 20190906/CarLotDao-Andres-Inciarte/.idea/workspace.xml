@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00772cc-c248-46ff-9036-c19783d6ecc5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/dao/ConsoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/dao/GameDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/dao/PublisherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/dao/TypeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/test/java/com/company/CoffeeInventoryDaoAndresInciarte/CoffeeInventoryDaoAndresInciarteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/test/java/com/company/CoffeeInventoryDaoAndresInciarte/CoffeeInventoryDaoAndresInciarteApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/VideoGameCollectionDao-Andres-Inciarte/src/main/java/com/company/VideoGameCollectionDaoAndresInciarte/model/Type.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -260,6 +265,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.9207493" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
