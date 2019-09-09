@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.company</groupId>
-	<artifactId>CoffeeInventoryDao-Andres-Inciarte</artifactId>
+	<artifactId>VideoGameCollectionDao-Andres-Inciarte</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CoffeeInventoryDao-Andres-Inciarte</name>
+	<name>VideoGameCollectionDao-Andres-Inciarte</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

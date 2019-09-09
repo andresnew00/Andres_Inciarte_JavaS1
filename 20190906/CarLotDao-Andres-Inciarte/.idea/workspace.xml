@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a00772cc-c248-46ff-9036-c19783d6ecc5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190903/CityDesign/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/test/java/com/company/CoffeeInventoryDaoAndresInciarte/CoffeeInventoryDaoAndresInciarteApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../20190909/CoffeeInventoryDao-Andres-Inciarte/src/test/java/com/company/CoffeeInventoryDaoAndresInciarte/CoffeeInventoryDaoAndresInciarteApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarLotDaoAndresInciarte/dao/CarInventoryJdbcTemplateImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2081">
-              <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="-2051">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,9 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="width" value="718" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -369,8 +370,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/CarLotDaoAndresInciarte/dao/CarInventoryJdbcTemplateImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2081">
-          <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="-2051">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
