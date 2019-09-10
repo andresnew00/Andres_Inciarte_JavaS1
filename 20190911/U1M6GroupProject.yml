@@ -1,0 +1,270 @@
+openapi: 3.0.0
+info:
+  version: 0.0.1
+  title: Customer Invoice Managment
+  description: Customer and Invoice Management System
+servers:
+  - url: 'http://localhost:8080/'
+    description: Local dev server
+paths:
+  /customer:
+    post:
+      tags: [Customer Operations]
+      summary: Add a customer to the database
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+      responses:
+        '201':
+          description: return the book back to the user with the id attached
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+    get:
+      tags: [Customer Operations]
+      summary: Get all the Customers in the database
+      responses:
+        '200':
+          description: Return all the books in the database
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Customer'
+  /customer/{customerId}:
+    get:
+      tags: [Customer Operations]
+      summary: Get one customer by id
+      parameters:
+        - name: customerId
+          in: path
+          required: true
+          description: Id of the customer to retieve
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Return just the book at that id
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Customer'
+    put:
+      tags: [Customer Operations]
+      summary: Update a customer at the given Id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Customer'
+      parameters: 
+        - name: customerId
+          in: path
+          required: true
+          description: Id of the customer to update
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: The Book was successfully updated
+    delete:
+      tags: [Customer Operations]
+      summary: Remove a customer by the given Id
+      parameters: 
+        - name: customerId
+          in: path
+          required: true
+          description: Id of the customer to delete
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: The book was successfully removed
+  /customer/{customerId}/{invoiceId}:
+    get:
+      tags: [Customer Operations]
+      summary: Get all the Customers in the database
+      parameters: 
+        - name: customerId
+          in: path
+          required: true
+          description: Id of the customer
+          schema:
+            type: integer
+        - name: invoiceId
+          in: path
+          required: true
+          description: Id of the invoices to find
+          schema:
+            type: integer
+          
+      responses:
+        '200':
+          description: Return all the invoices by customerId in the database
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Invoice'
+    
+  /item:
+    post:
+      tags: [Item Operations]
+      summary: Add an item to the database
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Item'
+      responses:
+        '201':
+          description: return the author back to the user with the id attached
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Item'
+    get:
+      tags: [Item Operations]
+      summary: Get all the items in the database
+      responses:
+        '200':
+          description: Return all the authors in the database
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Item'
+  /item/{itemId}:
+    get:
+      tags: [Item Operations]
+      summary: Get one item by id
+      parameters:
+        - name: itemId
+          in: path
+          required: true
+          description: Id of the item to retieve
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Return just the item at that id
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Item'
+    put:
+      tags: [Item Operations]
+      summary: Update an item at the given Id
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Item'
+      parameters: 
+        - name: itemId
+          in: path
+          required: true
+          description: Id of the item to update
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: The Item was successfully updated
+    delete:
+      tags: [Item Operations]
+      summary: Remove an item by the given Id
+      parameters: 
+        - name: itemId
+          in: path
+          required: true
+          description: Id of the item to delete
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: The author was successfully removed
+components:
+  schemas:
+    Customer:
+      type: object
+      properties:
+        customerId:
+          type: integer
+        firstName:
+          type: string
+        lastName:
+          type: string
+        email:
+          type: string
+        company:
+          type: string
+        phone:
+          type: string
+    Item:
+      type: object
+      properties:
+        itemId:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        dailyRate:
+          type: number
+    Invoice:
+      type: object
+      properties:
+        invoiceId:
+          type: integer
+        customerId:
+          type: integer
+        orderDate: 
+          type: number
+        pickupDate:
+          type: number
+        returnDate:
+          type: number
+        lateFee:
+          type: number
+        
+    Publisher:
+      type: object
+      properties:
+        publisherId:
+          type: integer
+        name:
+          type: string
+        street:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        postalCode:
+          type: string
+        phone:
+          type: string
+        email:
+          type: string
+      required: 
+        - publisherId
+        - name
+        - street
+        - city
+        - state
+        - postalCode
+        - phone
+        - email
+tags:
+  - name: Customer Operations
+    description: 'Handles all the CRUD methods for Customers'
+  - name: Item Operations
+    description: "Handles all the CRUD methods for Items"

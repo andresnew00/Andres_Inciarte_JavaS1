@@ -151,7 +151,7 @@ public class AndresInciarteCarLotJpaRepositoryApplicationTests {
 	}
 
 	@Test
-	public void findByColorandMakeTest(){
+	public void findByColorAndMakeTest(){
 		carRepository.deleteAll();
 
 		Car car = new Car();
@@ -192,6 +192,17 @@ public class AndresInciarteCarLotJpaRepositoryApplicationTests {
 //
 //		carRepository.save(car);
 //
+//		Car car1 = new Car();
+//		car1.setMake("Honda");
+//		car1.setModel("Accord");
+//		car1.setYear("2018");
+//		car1.setColor("Green");
+//
+//		carRepository.save(car);
+//
+//		assertEquals(car1, car);
+//
+//	}
 
 //		@Modifying
 //		Car carUpdate = carRepository.findOne(car.getId());
