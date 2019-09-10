@@ -92,6 +92,92 @@ public class AndresInciarteCarLotJpaRepositoryApplicationTests {
 
 	}
 
+	@Test
+	public void findByMakeTest(){
+		carRepository.deleteAll();
+
+		Car car = new Car();
+		car.setMake("Honda");
+		car.setModel("Civic");
+		car.setYear("2018");
+		car.setColor("Black");
+
+		car.setId(car.getId());
+
+		carRepository.save(car);
+
+		Car car1 = new Car();
+		car1.setMake("Ford");
+		car1.setModel("Civic");
+		car1.setYear("2018");
+		car1.setColor("Black");
+
+		car1.setId(car1.getId());
+
+		carRepository.save(car1);
+
+
+		List<Car> carbyMakeList = carRepository.findByMake("Honda");
+		assertEquals(1, carbyMakeList.size());
+	}
+
+	@Test
+	public void findByColorTest(){
+		carRepository.deleteAll();
+
+		Car car = new Car();
+		car.setMake("Honda");
+		car.setModel("Civic");
+		car.setYear("2018");
+		car.setColor("Black");
+
+		car.setId(car.getId());
+
+		carRepository.save(car);
+
+		Car car1 = new Car();
+		car1.setMake("Ford");
+		car1.setModel("Civic");
+		car1.setYear("2018");
+		car1.setColor("Black");
+
+		car1.setId(car1.getId());
+
+		carRepository.save(car1);
+
+
+		List<Car> carbyColorList = carRepository.findByColor("Black");
+		assertEquals(2, carbyColorList.size());
+	}
+
+	@Test
+	public void findByColorandMakeTest(){
+		carRepository.deleteAll();
+
+		Car car = new Car();
+		car.setMake("Honda");
+		car.setModel("Civic");
+		car.setYear("2018");
+		car.setColor("Black");
+
+		car.setId(car.getId());
+
+		carRepository.save(car);
+
+		Car car1 = new Car();
+		car1.setMake("Ford");
+		car1.setModel("Civic");
+		car1.setYear("2018");
+		car1.setColor("Black");
+
+		car1.setId(car1.getId());
+
+		carRepository.save(car1);
+
+
+		List<Car> carbyColorAndMakeList = carRepository.findByMakeAndColor("Honda","Black");
+		assertEquals(1, carbyColorAndMakeList.size());
+	}
 //	@Test
 //	public void updateCarsTest() {
 //		carRepository.deleteAll();
@@ -136,5 +222,6 @@ public class AndresInciarteCarLotJpaRepositoryApplicationTests {
 //		assertNull(car);
 //
 //	}
+
 
 }
