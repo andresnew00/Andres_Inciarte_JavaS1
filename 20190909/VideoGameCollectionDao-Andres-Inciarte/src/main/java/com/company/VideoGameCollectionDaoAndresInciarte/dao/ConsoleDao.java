@@ -28,7 +28,7 @@ public interface ConsoleDao {
     Console readConsole(int console_id);
 
     /**
-     * Retrun all 
+     * Retrun all
      * @return
      */
     List<Console> getallConsole();
