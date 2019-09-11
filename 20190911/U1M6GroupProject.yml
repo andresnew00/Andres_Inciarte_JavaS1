@@ -234,35 +234,7 @@ components:
           type: number
         lateFee:
           type: number
-        
-    Publisher:
-      type: object
-      properties:
-        publisherId:
-          type: integer
-        name:
-          type: string
-        street:
-          type: string
-        city:
-          type: string
-        state:
-          type: string
-        postalCode:
-          type: string
-        phone:
-          type: string
-        email:
-          type: string
-      required: 
-        - publisherId
-        - name
-        - street
-        - city
-        - state
-        - postalCode
-        - phone
-        - email
+          
 tags:
   - name: Customer Operations
     description: 'Handles all the CRUD methods for Customers'
