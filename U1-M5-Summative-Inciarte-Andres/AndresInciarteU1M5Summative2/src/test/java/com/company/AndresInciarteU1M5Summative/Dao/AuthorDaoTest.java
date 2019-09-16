@@ -15,13 +15,10 @@ import static org.junit.Assert.*;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
 public class AuthorDaoTest {
-    @Autowired
-    private PublisherDao publisherDao;
+
     @Autowired
     private AuthorDao authorDao;
 
-    @Autowired
-    private  BookDao bookDao;
 
     private Author author, author2;
 
@@ -30,12 +27,6 @@ public class AuthorDaoTest {
 
         authorDao.realAllAuthors().forEach(author -> {
             authorDao.deleteAuthor(author.getAuthorId());
-        });
-        bookDao.readAllBooks().forEach(book -> {
-            bookDao.deleteBook(book.getBookId());
-        });
-        publisherDao.readAllPublishers().forEach(publisher -> {
-            publisherDao.deletePublisher(publisher.getPublisherId());
         });
 
         author = new Author();

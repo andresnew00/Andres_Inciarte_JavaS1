@@ -19,7 +19,7 @@ public interface BookDao {
      * @param bookId
      * @return
      */
-    Book readBook(Integer bookId);
+    Book readBook(int bookId);
 
     /**
      * get a list of all the books in the db
@@ -37,12 +37,12 @@ public interface BookDao {
      * Delete a book from the database
      * @param bookId
      */
-    void deleteBook(Integer bookId);
+    void deleteBook(int bookId);
 
     /**
      * Get books by Author
      * @param authorId
      * @return
      */
-    List<Book> bookByAuthor(Integer authorId);
+    List<Book> bookByAuthor(int authorId);
 }

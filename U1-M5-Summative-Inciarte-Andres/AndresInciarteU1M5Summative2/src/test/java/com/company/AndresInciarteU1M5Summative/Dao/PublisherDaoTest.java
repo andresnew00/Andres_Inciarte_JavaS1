@@ -18,10 +18,6 @@ public class PublisherDaoTest {
 
     @Autowired
     private PublisherDao publisherDao;
-    @Autowired
-    private BookDao bookDao;
-    @Autowired
-    private AuthorDao authorDao;
 
     private Publisher publisher, publisher2;
 
@@ -29,12 +25,6 @@ public class PublisherDaoTest {
     public void setUp() throws Exception {
         publisherDao.readAllPublishers().forEach(publisher -> {
             publisherDao.deletePublisher(publisher.getPublisherId());
-        });
-        bookDao.readAllBooks().forEach(book -> {
-            bookDao.deleteBook(book.getBookId());
-        });
-        authorDao.realAllAuthors().forEach(author -> {
-            authorDao.deleteAuthor(author.getAuthorId());
         });
 
         publisher = new Publisher();

@@ -47,7 +47,7 @@ public class BookDaoJdbcTemplateImp implements BookDao {
                 book.getTitle(),
                 book.getPublisherId(),
                 book.getPrice());
-        Integer bookId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
+        int bookId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
 
         book.setBookId(bookId);
         return book;
@@ -60,7 +60,7 @@ public class BookDaoJdbcTemplateImp implements BookDao {
      * @return
      */
     @Override
-    public Book readBook(Integer id) {
+    public Book readBook(int id) {
         try {
             return jdbcTemplate.queryForObject(SELECT_BOOK_SQL, this::mapRowToBook, id);
         } catch (EmptyResultDataAccessException e) {
@@ -101,7 +101,8 @@ public class BookDaoJdbcTemplateImp implements BookDao {
      * @param id
      */
     @Override
-    public void deleteBook(Integer id) {
+    @Transactional
+    public void deleteBook(int id) {
         jdbcTemplate.update(DELETE_BOOK_SQL, id);
     }
 
@@ -112,7 +113,7 @@ public class BookDaoJdbcTemplateImp implements BookDao {
      * @return
      */
     @Override
-    public List<Book> bookByAuthor(Integer authorId) {
+    public List<Book> bookByAuthor(int authorId) {
         return jdbcTemplate.query(SELECT_BOOKS_BY_AUTHOR_SQL, this::mapRowToBook, authorId);
     }
 
@@ -123,7 +124,7 @@ public class BookDaoJdbcTemplateImp implements BookDao {
         book.setAuthorId(rs.getInt("author_id"));
         book.setTitle(rs.getString("title"));
         book.setPublisherId(rs.getInt("publisher_id"));
-        book.setPrice(rs.getLong("price"));
+        book.setPrice(rs.getBigDecimal("price"));
 
         return book;
     }

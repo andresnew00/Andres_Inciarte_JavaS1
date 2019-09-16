@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Publisher {
 
-    private Integer publisherId;
+    private int publisherId;
     private String name;
     private String street;
     private String city;
@@ -13,11 +13,11 @@ public class Publisher {
     private String phone;
     private String email;
 
-    public Integer getPublisherId() {
+    public int getPublisherId() {
         return publisherId;
     }
 
-    public void setPublisherId(Integer publisherId) {
+    public void setPublisherId(int publisherId) {
         this.publisherId = publisherId;
     }
 
@@ -82,7 +82,7 @@ public class Publisher {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Publisher publisher = (Publisher) o;
-        return publisherId.equals(publisher.publisherId) &&
+        return publisherId == publisher.publisherId &&
                 name.equals(publisher.name) &&
                 street.equals(publisher.street) &&
                 city.equals(publisher.city) &&

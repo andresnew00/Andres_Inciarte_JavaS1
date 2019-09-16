@@ -47,7 +47,7 @@ public class AuthorDaoJdbcTemplateImp implements AuthorDao {
                 author.getPhone(),
                 author.getEmail());
 
-        Integer authorId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
+        int authorId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
         author.setAuthorId(authorId);
         return author;
     }
@@ -59,7 +59,7 @@ public class AuthorDaoJdbcTemplateImp implements AuthorDao {
      * @return
      */
     @Override
-    public Author readAuthor(Integer authorId) {
+    public Author readAuthor(int authorId) {
         try {
             return jdbcTemplate.queryForObject(SELECT_AUTHOR_SQL,this::rowToAuthorMapp,authorId);
         } catch (EmptyResultDataAccessException e) {
@@ -104,7 +104,7 @@ public class AuthorDaoJdbcTemplateImp implements AuthorDao {
      */
     @Override
     @Transactional
-    public void deleteAuthor(Integer authorId) {
+    public void deleteAuthor(int authorId) {
         jdbcTemplate.update(DELETE_AUTHOR_SQL, authorId);
     }
 

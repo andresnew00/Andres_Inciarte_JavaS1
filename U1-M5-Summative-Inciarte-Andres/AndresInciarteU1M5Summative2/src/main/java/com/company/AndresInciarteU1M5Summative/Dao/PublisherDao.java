@@ -18,7 +18,7 @@ public interface PublisherDao {
      * @param publisherId
      * @return
      */
-    Publisher readPublisher(Integer publisherId);
+    Publisher readPublisher(int publisherId);
 
     /**
      * read all publishers in db
@@ -36,5 +36,5 @@ public interface PublisherDao {
      * delete a publisher
      * @param publisherId
      */
-    void deletePublisher(Integer publisherId);
+    void deletePublisher(int publisherId);
 }

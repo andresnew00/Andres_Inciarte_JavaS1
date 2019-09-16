@@ -48,7 +48,7 @@ public class PublisherDaoJdbcTemplateImp implements PublisherDao {
                 publisher.getPhone(),
                 publisher.getEmail());
 
-        Integer publisherId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
+        int publisherId = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
 
         publisher.setPublisherId(publisherId);
 
@@ -62,7 +62,7 @@ public class PublisherDaoJdbcTemplateImp implements PublisherDao {
      * @return
      */
     @Override
-    public Publisher readPublisher(Integer publisherId) {
+    public Publisher readPublisher(int publisherId) {
          try {
              return jdbcTemplate.queryForObject(SELECT_PUBLISHER_SQL, this::rowtoPublisherMapper ,publisherId);
          } catch (EmptyResultDataAccessException e) {
@@ -106,7 +106,7 @@ public class PublisherDaoJdbcTemplateImp implements PublisherDao {
      */
     @Override
     @Transactional
-    public void deletePublisher(Integer publisherId) {
+    public void deletePublisher(int publisherId) {
         jdbcTemplate.update(DELETE_PUBLISHER_SQL, publisherId);
     }
 

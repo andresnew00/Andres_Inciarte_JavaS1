@@ -19,7 +19,7 @@ public class PublisherController {
 
     @PostMapping(value = "/publisher")
     @ResponseStatus(HttpStatus.CREATED)
-    public Publisher createPublisher(@RequestBody @Valid Publisher publisher) {
+    public Publisher createPublisher(@RequestBody Publisher publisher) {
         return publisherDao.createPublisher(publisher);
     }
 

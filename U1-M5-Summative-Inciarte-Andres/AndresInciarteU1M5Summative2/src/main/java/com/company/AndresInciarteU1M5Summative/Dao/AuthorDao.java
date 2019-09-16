@@ -20,7 +20,7 @@ public interface AuthorDao {
      * @param authorId
      * @return
      */
-    Author readAuthor(Integer authorId);
+    Author readAuthor(int authorId);
 
     /**
      * Returning all authors
@@ -38,6 +38,6 @@ public interface AuthorDao {
      * Delete an author by id
      * @param authorId
      */
-    void deleteAuthor(Integer authorId);
+    void deleteAuthor(int authorId);
 
 }

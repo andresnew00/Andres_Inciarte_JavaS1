@@ -2,27 +2,25 @@ package com.company.AndresInciarteU1M5Summative.Dto;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.Size;
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Book {
 
-    private Integer bookId;
-    @NotEmpty(message = "isbn can not be empty")
-    @Size(max = 15)
+    private int bookId;
     private String isbn;
-    @NotEmpty(message = "Publish Date can not be empty")
     private LocalDate publishDate;
-    private Integer authorId;
+    private int authorId;
     private String title;
-    private Integer publisherId;
-    private Long price;
+    private int publisherId;
+    private BigDecimal price;
 
-    public Integer getBookId() {
+    public int getBookId() {
         return bookId;
     }
 
-    public void setBookId(Integer bookId) {
+    public void setBookId(int bookId) {
         this.bookId = bookId;
     }
 
@@ -42,11 +40,11 @@ public class Book {
         this.publishDate = publishDate;
     }
 
-    public Integer getAuthorId() {
+    public int getAuthorId() {
         return authorId;
     }
 
-    public void setAuthorId(Integer authorId) {
+    public void setAuthorId(int authorId) {
         this.authorId = authorId;
     }
 
@@ -58,19 +56,19 @@ public class Book {
         this.title = title;
     }
 
-    public Integer getPublisherId() {
+    public int getPublisherId() {
         return publisherId;
     }
 
-    public void setPublisherId(Integer publisherId) {
+    public void setPublisherId(int publisherId) {
         this.publisherId = publisherId;
     }
 
-    public Long getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 
@@ -79,12 +77,12 @@ public class Book {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
-        return bookId.equals(book.bookId) &&
+        return bookId == book.bookId &&
+                authorId == book.authorId &&
+                publisherId == book.publisherId &&
                 isbn.equals(book.isbn) &&
                 publishDate.equals(book.publishDate) &&
-                authorId.equals(book.authorId) &&
                 title.equals(book.title) &&
-                publisherId.equals(book.publisherId) &&
                 price.equals(book.price);
     }
 
@@ -92,5 +90,4 @@ public class Book {
     public int hashCode() {
         return Objects.hash(bookId, isbn, publishDate, authorId, title, publisherId, price);
     }
-
 }

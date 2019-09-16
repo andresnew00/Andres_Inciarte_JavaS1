@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -20,13 +21,11 @@ import static org.junit.Assert.*;
 public class BookDaoTest {
 
     @Autowired
-    private BookDao bookDao;
-
+    protected BookDao bookDao;
     @Autowired
-    private AuthorDao authorDao;
-
+    protected AuthorDao authorDao;
     @Autowired
-    private PublisherDao publisherDao;
+    protected PublisherDao publisherDao;
 
     private Author author;
 
@@ -36,15 +35,14 @@ public class BookDaoTest {
 
     @Before
     public void setUp() throws Exception {
-
         bookDao.readAllBooks().forEach(book -> {
             bookDao.deleteBook(book.getBookId());
         });
-        publisherDao.readAllPublishers().forEach(publisher -> {
-            publisherDao.deletePublisher(publisher.getPublisherId());
-        });
         authorDao.realAllAuthors().forEach(author -> {
             authorDao.deleteAuthor(author.getAuthorId());
+        });
+        publisherDao.readAllPublishers().forEach(publisher -> {
+            publisherDao.deletePublisher(publisher.getPublisherId());
         });
 
         author = new Author();
@@ -74,7 +72,7 @@ public class BookDaoTest {
         book.setAuthorId(author.getAuthorId());
         book.setTitle("Title");
         book.setPublisherId(publisher.getPublisherId());
-        book.setPrice(new Long(100));
+        book.setPrice(new BigDecimal(100));
 
 
         book2 = new Book();
@@ -83,7 +81,7 @@ public class BookDaoTest {
         book2.setAuthorId(author.getAuthorId());
         book2.setTitle("Title2");
         book2.setPublisherId(publisher.getPublisherId());
-        book2.setPrice(new Long(200));
+        book2.setPrice(new BigDecimal(200));
 
     }
 
@@ -101,6 +99,7 @@ public class BookDaoTest {
 
     @Test
     public void readBook() {
+
         author = authorDao.createAuthor(author);
         book.setAuthorId(author.getAuthorId());
 
@@ -116,16 +115,16 @@ public class BookDaoTest {
 
     @Test
     public void readAllBooks() {
+        author = authorDao.createAuthor(author);
         book.setAuthorId(author.getAuthorId());
 
+        publisher = publisherDao.createPublisher(publisher);
         book.setPublisherId(publisher.getPublisherId());
 
         book = bookDao.createBook(book);
 
         book2.setAuthorId(author.getAuthorId());
-
         book2.setPublisherId(publisher.getPublisherId());
-
         book2 = bookDao.createBook(book2);
 
         List<Book> bookList = bookDao.readAllBooks();
@@ -135,8 +134,10 @@ public class BookDaoTest {
 
     @Test
     public void updateBook() {
+        author = authorDao.createAuthor(author);
         book.setAuthorId(author.getAuthorId());
 
+        publisher = publisherDao.createPublisher(publisher);
         book.setPublisherId(publisher.getPublisherId());
 
         book = bookDao.createBook(book);
@@ -151,8 +152,10 @@ public class BookDaoTest {
 
     @Test
     public void deleteBook() {
+        author = authorDao.createAuthor(author);
         book.setAuthorId(author.getAuthorId());
 
+        publisher = publisherDao.createPublisher(publisher);
         book.setPublisherId(publisher.getPublisherId());
 
         book = bookDao.createBook(book);
@@ -165,8 +168,10 @@ public class BookDaoTest {
 
     @Test
     public void bookByAuthor() {
+        author = authorDao.createAuthor(author);
         book.setAuthorId(author.getAuthorId());
 
+        publisher = publisherDao.createPublisher(publisher);
         book.setPublisherId(publisher.getPublisherId());
 
         book = bookDao.createBook(book);

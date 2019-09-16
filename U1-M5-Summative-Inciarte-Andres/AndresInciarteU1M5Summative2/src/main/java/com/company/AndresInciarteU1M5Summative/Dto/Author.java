@@ -6,7 +6,7 @@ import java.util.Objects;
 
 public class Author {
 
-    private Integer authorId;
+    private int authorId;
     @NotEmpty(message = "First Name can not be empty")
     @Size(max = 50)
     private String firstName;
@@ -32,11 +32,11 @@ public class Author {
     @Size(max = 60)
     private String email;
 
-    public Integer getAuthorId() {
+    public int getAuthorId() {
         return authorId;
     }
 
-    public void setAuthorId(Integer authorId) {
+    public void setAuthorId(int authorId) {
         this.authorId = authorId;
     }
 
@@ -109,7 +109,7 @@ public class Author {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Author author = (Author) o;
-        return authorId.equals(author.authorId) &&
+        return authorId == author.authorId &&
                 firstName.equals(author.firstName) &&
                 LastName.equals(author.LastName) &&
                 street.equals(author.street) &&
