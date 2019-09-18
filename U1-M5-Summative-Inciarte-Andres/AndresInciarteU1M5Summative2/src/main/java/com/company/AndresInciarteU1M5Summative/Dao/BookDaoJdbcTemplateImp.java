@@ -119,6 +119,7 @@ public class BookDaoJdbcTemplateImp implements BookDao {
 
     private Book mapRowToBook(ResultSet rs, int rowNum) throws SQLException {
         Book book = new Book();
+        book.setBookId(rs.getInt("book_id"));
         book.setIsbn(rs.getString("isbn"));
         book.setPublishDate(rs.getDate("publish_date").toLocalDate());
         book.setAuthorId(rs.getInt("author_id"));

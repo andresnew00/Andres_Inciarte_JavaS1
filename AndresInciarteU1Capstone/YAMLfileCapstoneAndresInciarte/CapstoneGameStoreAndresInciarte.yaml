@@ -1,0 +1,541 @@
+openapi: 3.0.0
+info:
+  title: Game Store Capstone - Andres Inciarte
+  description: with this api will be able to create orders that contain business logic depending on the items you want to purchase.
+  version: "0.1"
+servers: 
+- url: http://localhost:8080
+  description: Local dev server
+tags: 
+- name: "Games"
+  description: "Game provided routes"
+- name: "Consoles"
+  description: "Console provited routes"
+- name: "T-Shirts"
+  description: "T-Shirts provited routes"
+- name: "State Taxes"
+  description: "Taxes by state provited routes"
+- name: "Processing Fees"
+  description: "Fees provited routes"
+
+# Game routes
+paths:
+  /game:
+    get:
+      tags:
+      - "Games"
+      summary: returns a list of all games.
+      description: this will return all the games available in the database.
+      parameters: []
+      responses:
+        '200':
+          description: A JSON array of games.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/game'
+  
+    post:
+      tags:
+      - "Games"
+      summary: creates a new game.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/game'
+      responses:
+        '201':
+          description: Created a new game.
+                  
+  /game/{gameId}:
+    get:
+      tags:
+      - "Games"
+      summary: returns the game specified by the id.
+      parameters: 
+        - name: gameId
+          in: path
+          required: true
+          description: id of the game you would like to get.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Game object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/game'
+                
+    put:
+      tags:
+      - "Games"
+      summary: updates an existing game.
+      description: updates a game by id.
+      parameters: 
+        - name: gameId
+          in: path
+          required: true
+          description: id of the game you would like to update.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Update game object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/game'
+                
+    delete:
+      tags: 
+      - "Games"
+      summary: Deletes an existing game.
+      description: deletes a game by id.
+      parameters: 
+        - name: gameId
+          in: path
+          required: true
+          description: id of the game you would like to delete.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Delete game object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/game'
+  /game/{studio}: 
+    get:
+      tags: 
+      - "Games"
+      summary: returns the game specified by the studio.
+      parameters: 
+        - name: studio
+          in: path
+          required: true
+          description: studio of the game you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game object from current studio.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/game'
+  /game/{esrb}: 
+    get:
+      tags: 
+      - "Games"
+      summary: returns the games specified by the ESRB rating.
+      parameters: 
+        - name: esrb
+          in: path
+          required: true
+          description: esrb rating of the games you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game objects from current studio.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/game'
+  
+  /game/{title}:
+    get:
+      tags: 
+      - "Games"
+      summary: returns the game specified by the title.
+      parameters: 
+        - name: title
+          in: path
+          required: true
+          description: title of the game you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Game object from current title.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/game'
+
+# Console routes
+
+  /console:
+    get:
+      tags:
+      - "Consoles"
+      summary: returns a list of all consoles.
+      description: this will return all the consoles available in the database.
+      parameters: []
+      responses:
+        '200':
+          description: A JSON array of games.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/console'
+  
+    post:
+      tags:
+      - "Consoles"
+      summary: creates a new console.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/console'
+      responses:
+        '201':
+          description: Created a new console.
+                  
+  /console/{consoleId}:
+    get:
+      tags:
+      - "Consoles"
+      summary: returns the console specified by the id.
+      parameters: 
+        - name: consoleId
+          in: path
+          required: true
+          description: id of the console you would like to get.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Console object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+                
+    put:
+      tags:
+      - "Consoles"
+      summary: updates an existing console.
+      description: updates a console by id.
+      parameters: 
+        - name: consoleId
+          in: path
+          required: true
+          description: id of the console you would like to update.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Update console object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+                
+    delete:
+      tags: 
+      - "Consoles"
+      summary: Deletes an existing console.
+      description: deletes a console by id.
+      parameters: 
+        - name: consoleId
+          in: path
+          required: true
+          description: id of the console you would like to delete.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Delete console object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+    
+  /game/{manufacturer}: 
+    get:
+      tags: 
+      - "Consoles"
+      summary: returns the game specified by the manufacturer.
+      parameters: 
+        - name: manufacturer
+          in: path
+          required: true
+          description: manufacturer of the console you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Console object from current manufacturer.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+
+# Tshirt Routes
+  
+  /tshirt:
+    get:
+      tags:
+      - "T-Shirts"
+      summary: returns a list of all T-shirts.
+      description: this will return all the T-shirts available in the database.
+      parameters: []
+      responses:
+        '200':
+          description: A JSON array of T-shirts.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/tshirt'
+  
+    post:
+      tags:
+      - "T-Shirts"
+      summary: creates a new T-shirt.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/tshirt'
+      responses:
+        '201':
+          description: Created a new T-shirt.
+                  
+  /tshirt/{tshirtId}:
+    get:
+      tags:
+      - "T-Shirts"
+      summary: returns the T-shirt specified by the id.
+      parameters: 
+        - name: tshirtId
+          in: path
+          required: true
+          description: id of the T-shirt you would like to get.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: T-shirt object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/tshirt'
+                
+    put:
+      tags:
+      - "T-Shirts"
+      summary: updates an existing T-shirt.
+      description: updates a T-shirt by id.
+      parameters: 
+        - name: tshirtId
+          in: path
+          required: true
+          description: id of the T-shirt you would like to update.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Update T-shirt object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/tshirt'
+                
+    delete:
+      tags: 
+      - "T-Shirts"
+      summary: Deletes an existing T-shirt.
+      description: deletes a T-shirt by id.
+      parameters: 
+        - name: tshirtId
+          in: path
+          required: true
+          description: id of the T-shirt you would like to delete.
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Delete T-shirt object from current id.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/tshirt'
+                
+                
+                
+  /tshirt/{color}:
+    get:
+      tags: 
+      - "T-Shirts"
+      summary: returns the T-shirt specified by the color.
+      parameters: 
+        - name: color
+          in: path
+          required: true
+          description: color of the t-shirt you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: t-shirt object from current color.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+                
+  /tshirt/{size}:
+    get:
+      tags: 
+      - "T-Shirts"
+      summary: returns the T-shirt specified by the size.
+      parameters: 
+        - name: size
+          in: path
+          required: true
+          description: size of the t-shirt you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: t-shirt object from current size.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/console'
+                
+                
+# taxes
+
+  /taxes/{state}:
+    get:
+      tags: 
+      - "State Taxes"
+      summary: returns the tax specified by the state.
+      parameters: 
+        - name: state
+          in: path
+          required: true
+          description: state of the tax you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: tax object from current state.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/taxes'
+                
+# fees
+
+  /proccessFees/{item}:
+    get:
+      tags: 
+      - "Processing Fees"
+      summary: returns the fee specified by the item.
+      parameters: 
+        - name: item
+          in: path
+          required: true
+          description: fee of the item you would like to get.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: fee object from current item.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/processFees'
+
+      
+components:
+  schemas:
+    game:
+      type: object
+      properties:
+        gameId:
+          type: integer
+        title:
+          type: string
+        esrb:
+          type: string
+        description:
+          type: string
+        price:
+          type: integer
+        studio:
+          type: string
+        quantity:
+          type: integer
+        celsius:
+          type: number
+          
+    console:
+      type: object
+      properties:
+        consoleId:
+          type: integer
+        model:
+          type: string
+        manufacturer:
+          type: string
+        memoryAmount:
+          type: string
+        processor:
+          type: string
+        price:
+          type: integer
+        quantity:
+          type: integer
+          
+    tshirt:
+      type: object
+      properties:
+        tshirtId:
+          type: integer
+        size:
+          type: string
+        color:
+          type: string
+        description:
+          type: string
+        price:
+          type: integer
+        quantity:
+          type: integer
+          
+    taxes:
+      type: object
+      properties:
+        state:
+          type: string
+        tax:
+          type: integer
+    processFees:
+      type: object
+      properties:
+        item:
+          type: string
+        fee:
+          type: integer
+        
+        
+        
+        
