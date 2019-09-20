@@ -7,7 +7,7 @@ servers:
 - url: http://localhost:8080
   description: Local dev server
 tags: 
-- name: "Games"
+- name: "Game"
   description: "Game provided routes"
 - name: "Consoles"
   description: "Console provited routes"
@@ -23,7 +23,7 @@ paths:
   /game:
     get:
       tags:
-      - "Games"
+      - "Game"
       summary: returns a list of all games.
       description: this will return all the games available in the database.
       parameters: []
@@ -39,7 +39,7 @@ paths:
   
     post:
       tags:
-      - "Games"
+      - "Game"
       summary: creates a new game.
       requestBody:
         required: true
@@ -54,7 +54,7 @@ paths:
   /game/{gameId}:
     get:
       tags:
-      - "Games"
+      - "Game"
       summary: returns the game specified by the id.
       parameters: 
         - name: gameId
@@ -73,7 +73,7 @@ paths:
                 
     put:
       tags:
-      - "Games"
+      - "Game"
       summary: updates an existing game.
       description: updates a game by id.
       parameters: 
@@ -93,7 +93,7 @@ paths:
                 
     delete:
       tags: 
-      - "Games"
+      - "Game"
       summary: Deletes an existing game.
       description: deletes a game by id.
       parameters: 
@@ -113,7 +113,7 @@ paths:
   /game/{studio}: 
     get:
       tags: 
-      - "Games"
+      - "Game"
       summary: returns the game specified by the studio.
       parameters: 
         - name: studio
@@ -132,7 +132,7 @@ paths:
   /game/{esrb}: 
     get:
       tags: 
-      - "Games"
+      - "Game"
       summary: returns the games specified by the ESRB rating.
       parameters: 
         - name: esrb
@@ -154,7 +154,7 @@ paths:
   /game/{title}:
     get:
       tags: 
-      - "Games"
+      - "Game"
       summary: returns the game specified by the title.
       parameters: 
         - name: title
