@@ -79,8 +79,7 @@ public class Console {
                 model.equals(console.model) &&
                 manufacturer.equals(console.manufacturer) &&
                 memoryAmount.equals(console.memoryAmount) &&
-                processor.equals(console.processor) &&
-                price.equals(console.price);
+                processor.equals(console.processor);
     }
 
     @Override

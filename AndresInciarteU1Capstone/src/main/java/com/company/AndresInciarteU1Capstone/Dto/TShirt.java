@@ -69,8 +69,7 @@ public class TShirt {
                 quantity == tShirt.quantity &&
                 size.equals(tShirt.size) &&
                 color.equals(tShirt.color) &&
-                description.equals(tShirt.description) &&
-                price.equals(tShirt.price);
+                description.equals(tShirt.description);
     }
 
     @Override

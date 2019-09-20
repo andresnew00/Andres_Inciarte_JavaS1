@@ -145,12 +145,7 @@ public class Invoice {
                 city.equals(invoice.city) &&
                 state.equals(invoice.state) &&
                 zipcode.equals(invoice.zipcode) &&
-                itemType.equals(invoice.itemType) &&
-                unitPrice.equals(invoice.unitPrice) &&
-                subtotal.equals(invoice.subtotal) &&
-                tax.equals(invoice.tax) &&
-                processingFee.equals(invoice.processingFee) &&
-                total.equals(invoice.total);
+                itemType.equals(invoice.itemType);
     }
 
     @Override

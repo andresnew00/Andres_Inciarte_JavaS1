@@ -30,7 +30,7 @@ public class ServiceLayer {
 
     //CRUD Invoice
     @Transactional
-    public Invoice addInvoice(UserPurchaseInfo info) {
+    public Invoice findAddInvoice(UserPurchaseInfo info) {
         Invoice invoice = new Invoice();
         invoice.setName(info.getName());
         invoice.setStreet(info.getStreet());
@@ -40,11 +40,11 @@ public class ServiceLayer {
         invoice.setItemType(info.getItemType());
         invoice.setItemId(info.getItemId());
         //unit price
-        if (invoice.getItemType().equals("Console")) {
+        if (invoice.getItemType().equals("Consoles")) {
             invoice.setUnitPrice(consoleDao.getConsole(invoice.getItemId()).getPrice());
-        } else if (invoice.getItemType().equals("Game")) {
+        } else if (invoice.getItemType().equals("Games")) {
             invoice.setUnitPrice(gameDao.getGame(invoice.getItemId()).getPrice());
-        } else if (invoice.getItemType().equals("T-Shirt")) {
+        } else if (invoice.getItemType().equals("T-Shirts")) {
             invoice.setUnitPrice(tshirtDao.getTshirt(invoice.getItemId()).getPrice());
         } else {
             return null;
@@ -53,7 +53,7 @@ public class ServiceLayer {
         //subtotal no tax yes processing fee
         invoice.setSubtotal(invoice.getUnitPrice().multiply(new BigDecimal(invoice.getQuantity())));
         //get tax
-        invoice.setTax(salesTaxRateDao.getTaxByState(invoice.getState()).getRate());
+        invoice.setTax(salesTaxRateDao.getTaxByState(invoice.getState()).getRate().multiply(invoice.getSubtotal()));
         //processing fee
         invoice.setProcessingFee(processingFeeDao.getProcessingFeeByItem(invoice.getItemType()).getFee());
         //get total
@@ -63,6 +63,8 @@ public class ServiceLayer {
 
         return invoice;
     }
+
+    public Invoice addInvoice(Invoice invoice) {return invoiceDao.addInvoice(invoice);}
 
     public Invoice getInvoice(int id) {
         return invoiceDao.getInvoice(id);

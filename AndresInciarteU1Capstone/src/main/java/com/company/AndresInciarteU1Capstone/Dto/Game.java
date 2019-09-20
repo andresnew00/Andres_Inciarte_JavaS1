@@ -79,7 +79,6 @@ public class Game {
                 title.equals(game.title) &&
                 esrbRating.equals(game.esrbRating) &&
                 description.equals(game.description) &&
-                price.equals(game.price) &&
                 studio.equals(game.studio);
     }
 
