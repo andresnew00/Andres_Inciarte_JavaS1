@@ -1,15 +1,28 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 public class TShirt {
 
+    @NotNull
     private int tShirtId;
+    @NotNull
+    @Size(max = 20, message = "Size must be less than 20 characters long")
     private String size;
+    @NotNull
+    @Size(max = 20, message = "Color must be less than 20 characters long")
     private String color;
+    @NotNull
+    @Size(max = 255, message = "Description must be less than 255 characters long")
     private String description;
+    @NotNull
+    @Digits(integer = 5, fraction = 2)
     private BigDecimal price;
+    @NotNull
     private int quantity;
 
     public int gettShirtId() {

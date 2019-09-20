@@ -1,16 +1,31 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Game {
 
+    @NotNull
     private int gameId;
+    @NotNull
+    @Size(max = 50, message = "Title must be less than 50 characters long")
     private String title;
+    @NotNull
+    @Size(max = 50, message = "ESRB Rating must be less than 50 characters long")
     private String esrbRating;
+    @NotNull
+    @Size(max = 255, message = "Description must be less than 255 characters long")
     private String description;
+    @NotNull
+    @Digits(integer = 5, fraction = 2)
     private BigDecimal price;
+    @NotNull
+    @Size(max = 50, message = "Studio must be less than 50 characters long")
     private String studio;
+    @NotNull
     private int quantity;
 
     public int getGameId() {

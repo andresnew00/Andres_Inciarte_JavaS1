@@ -1,16 +1,30 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
+import javax.validation.constraints.Digits;
+import javax.validation.constraints.Max;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Console {
 
+    @NotNull
     private int consoleId;
+    @NotNull
+    @Size(max = 50, message = "model must be less than 50 characters long")
     private String model;
+    @NotNull
+    @Size(max = 50, message = "manufacturer must be less than 50 characters long")
     private String manufacturer;
+    @Size(max = 50, message = "memory amount must be less than 50 characters long")
     private String memoryAmount;
+    @Size(max = 20, message = "processor must be less than 20 characters long")
     private String processor;
+    @NotNull
+    @Digits(integer = 5, fraction = 2)
     private BigDecimal price;
+    @NotNull
     private int quantity;
 
     public int getConsoleId() {
