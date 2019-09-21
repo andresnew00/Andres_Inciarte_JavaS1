@@ -1,6 +1,5 @@
 package com.company.AndresInciarteU1Capstone.Controller;
 
-import com.company.AndresInciarteU1Capstone.Dto.Game;
 import com.company.AndresInciarteU1Capstone.Dto.TShirt;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +18,7 @@ public class TShirtController {
 
     @PostMapping
     @ResponseStatus(value = HttpStatus.OK)
-    public TShirt addTshirt(@RequestBody @Valid TShirt tShirt){
+    public TShirt addTshirt(@RequestBody @Valid TShirt tShirt) {
         return serviceLayer.addTshirt(tShirt);
     }
 
@@ -33,27 +32,27 @@ public class TShirtController {
         }
     }
 
-    @GetMapping(value = "/{TshirtId}")
+    @GetMapping(value = "/find/{tshirtId}")
     @ResponseStatus(value = HttpStatus.OK)
     public TShirt getTshirt(@PathVariable int tshirtId) {
         return serviceLayer.getTshirt(tshirtId);
     }
 
 
-    @PutMapping(value = "/{tshirtId}")
+    @PutMapping(value = "/update/{tshirtId}")
     @ResponseStatus(value = HttpStatus.OK)
-    public void updateTshirt(@PathVariable int id,@RequestBody @Valid TShirt tShirt) {
-        tShirt.settShirtId(id);
+    public void updateTshirt(@PathVariable int tshirtId, @RequestBody @Valid TShirt tShirt) {
+        tShirt.settShirtId(tshirtId);
         serviceLayer.updateTshirt(tShirt);
     }
 
-    @DeleteMapping(value = "/{tshirtId}")
+    @DeleteMapping(value = "/delete/{tshirtId}")
     @ResponseStatus(value = HttpStatus.GONE)
     public void deleteTshirt(@PathVariable int tshirtId) {
         serviceLayer.deleteTshirt(tshirtId);
     }
 
-    @GetMapping(value = "/{color}")
+    @GetMapping(value = "/findbycolor/{color}")
     @ResponseStatus(value = HttpStatus.OK)
     public List<TShirt> getAllTshirtsByColor(@PathVariable String color) {
         if (serviceLayer.getTShirtsByColor(color).size() > 0) {
@@ -63,7 +62,7 @@ public class TShirtController {
         }
     }
 
-    @GetMapping(value = "/{size}")
+    @GetMapping(value = "/findbysize/{size}")
     @ResponseStatus(value = HttpStatus.OK)
     public List<TShirt> getAllTshirtBySize(@PathVariable String size) {
         if (serviceLayer.getTShirtsBySize(size).size() > 0) {

@@ -18,7 +18,7 @@ public class GameController {
 
     @PostMapping
     @ResponseStatus(value = HttpStatus.OK)
-    public Game addGame(@RequestBody @Valid Game game){
+    public Game addGame(@RequestBody @Valid Game game) {
         return serviceLayer.addGame(game);
     }
 
@@ -32,27 +32,27 @@ public class GameController {
         }
     }
 
-    @GetMapping(value = "/{gameId}")
+    @GetMapping(value = "/find/{gameId}")
     @ResponseStatus(value = HttpStatus.OK)
     public Game getGame(@PathVariable int gameId) {
         return serviceLayer.getGame(gameId);
     }
 
 
-    @PutMapping(value = "/{gameId}")
+    @PutMapping(value = "/update/{gameId}")
     @ResponseStatus(value = HttpStatus.OK)
-    public void updateGame(@PathVariable int id,@RequestBody @Valid Game game) {
-        game.setGameId(id);
+    public void updateGame(@PathVariable int gameId, @RequestBody @Valid Game game) {
+        game.setGameId(gameId);
         serviceLayer.updateGame(game);
     }
 
-    @DeleteMapping(value = "/{gameId}")
+    @DeleteMapping(value = "/delete/{gameId}")
     @ResponseStatus(value = HttpStatus.GONE)
     public void deleteGame(@PathVariable int gameId) {
         serviceLayer.deleteGame(gameId);
     }
 
-    @GetMapping(value = "/{studio}")
+    @GetMapping(value = "/findbystudio/{studio}")
     @ResponseStatus(value = HttpStatus.OK)
     public List<Game> getAllGamesbyStudio(@PathVariable String studio) {
         if (serviceLayer.getGamesByStudio(studio).size() > 0) {
@@ -62,7 +62,7 @@ public class GameController {
         }
     }
 
-    @GetMapping(value = "/{esrb}")
+    @GetMapping(value = "/findbyesrb/{esrb}")
     @ResponseStatus(value = HttpStatus.OK)
     public List<Game> getAllGamesbyEsrb(@PathVariable String esrb) {
         if (serviceLayer.getGamesByEsrbRating(esrb).size() > 0) {
@@ -72,7 +72,7 @@ public class GameController {
         }
     }
 
-    @GetMapping(value = "/{title}")
+    @GetMapping(value = "/findbytitle/{title}")
     @ResponseStatus(value = HttpStatus.OK)
     public Game getGameByTitle(@PathVariable String title) {
         return serviceLayer.getGameByTitle(title);

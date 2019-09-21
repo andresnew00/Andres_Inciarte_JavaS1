@@ -1,6 +1,5 @@
 package com.company.AndresInciarteU1Capstone.Controller;
 
-import com.company.AndresInciarteU1Capstone.Dto.Game;
 import com.company.AndresInciarteU1Capstone.Dto.Invoice;
 import com.company.AndresInciarteU1Capstone.Dto.UserPurchaseInfo;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;

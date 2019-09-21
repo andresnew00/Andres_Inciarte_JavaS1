@@ -2,12 +2,12 @@ openapi: 3.0.0
 info:
   title: Game Store Capstone - Andres Inciarte
   description: with this api will be able to create orders that contain business logic depending on the items you want to purchase.
-  version: "0.1"
+  version: "2.0"
 servers: 
 - url: http://localhost:8080
   description: Local dev server
 tags: 
-- name: "Game"
+- name: "Games"
   description: "Game provided routes"
 - name: "Consoles"
   description: "Console provited routes"
@@ -17,13 +17,14 @@ tags:
   description: "Taxes by state provited routes"
 - name: "Processing Fees"
   description: "Fees provited routes"
+  
 
 # Game routes
 paths:
   /game:
     get:
       tags:
-      - "Game"
+      - "Games"
       summary: returns a list of all games.
       description: this will return all the games available in the database.
       parameters: []
@@ -39,7 +40,7 @@ paths:
   
     post:
       tags:
-      - "Game"
+      - "Games"
       summary: creates a new game.
       requestBody:
         required: true
@@ -51,10 +52,10 @@ paths:
         '201':
           description: Created a new game.
                   
-  /game/{gameId}:
+  /game/find/{gameId}:
     get:
       tags:
-      - "Game"
+      - "Games"
       summary: returns the game specified by the id.
       parameters: 
         - name: gameId
@@ -70,10 +71,11 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/game'
-                
+  
+  /game/update/{gameId}:              
     put:
       tags:
-      - "Game"
+      - "Games"
       summary: updates an existing game.
       description: updates a game by id.
       parameters: 
@@ -91,9 +93,10 @@ paths:
               schema:
                 $ref: '#/components/schemas/game'
                 
+  /game/delete/{gameId}:                
     delete:
       tags: 
-      - "Game"
+      - "Games"
       summary: Deletes an existing game.
       description: deletes a game by id.
       parameters: 
@@ -110,10 +113,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/game'
-  /game/{studio}: 
+  /game/findbystudio/{studio}: 
     get:
       tags: 
-      - "Game"
+      - "Games"
       summary: returns the game specified by the studio.
       parameters: 
         - name: studio
@@ -129,10 +132,10 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/game'
-  /game/{esrb}: 
+  /game/findbyesrb/{esrb}: 
     get:
       tags: 
-      - "Game"
+      - "Games"
       summary: returns the games specified by the ESRB rating.
       parameters: 
         - name: esrb
@@ -151,10 +154,10 @@ paths:
                 items:
                   $ref: '#/components/schemas/game'
   
-  /game/{title}:
+  /game/findbytitle/{title}:
     get:
       tags: 
-      - "Game"
+      - "Games"
       summary: returns the game specified by the title.
       parameters: 
         - name: title
@@ -204,7 +207,7 @@ paths:
         '201':
           description: Created a new console.
                   
-  /console/{consoleId}:
+  /console/find/{consoleId}:
     get:
       tags:
       - "Consoles"
@@ -223,7 +226,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/console'
-                
+  
+  /console/update/{consoleId}:              
     put:
       tags:
       - "Consoles"
@@ -243,7 +247,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/console'
-                
+  
+  /console/delete/{consoleId}:                
     delete:
       tags: 
       - "Consoles"
@@ -264,7 +269,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/console'
     
-  /game/{manufacturer}: 
+  /game/findbymanufacturer/{manufacturer}: 
     get:
       tags: 
       - "Consoles"
@@ -317,7 +322,7 @@ paths:
         '201':
           description: Created a new T-shirt.
                   
-  /tshirt/{tshirtId}:
+  /tshirt/find/{tshirtId}:
     get:
       tags:
       - "T-Shirts"
@@ -337,6 +342,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/tshirt'
                 
+  /tshirt/update/{tshirtId}:              
     put:
       tags:
       - "T-Shirts"
@@ -356,7 +362,8 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/tshirt'
-                
+  
+  /tshirt/delete/{tshirtId}:               
     delete:
       tags: 
       - "T-Shirts"
@@ -379,7 +386,7 @@ paths:
                 
                 
                 
-  /tshirt/{color}:
+  /tshirt/findbycolor/{color}:
     get:
       tags: 
       - "T-Shirts"
@@ -399,7 +406,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/console'
                 
-  /tshirt/{size}:
+  /tshirt/findbysize/{size}:
     get:
       tags: 
       - "T-Shirts"
@@ -535,7 +542,6 @@ components:
           type: string
         fee:
           type: integer
-        
         
         
         

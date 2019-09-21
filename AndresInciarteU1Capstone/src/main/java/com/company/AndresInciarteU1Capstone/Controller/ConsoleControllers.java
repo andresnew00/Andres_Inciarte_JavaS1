@@ -1,15 +1,12 @@
 package com.company.AndresInciarteU1Capstone.Controller;
 
 import com.company.AndresInciarteU1Capstone.Dto.Console;
-import com.company.AndresInciarteU1Capstone.Dto.Invoice;
-import com.company.AndresInciarteU1Capstone.Dto.UserPurchaseInfo;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -21,7 +18,7 @@ public class ConsoleControllers {
 
     @PostMapping
     @ResponseStatus(value = HttpStatus.OK)
-    public Console addConsole(@RequestBody @Valid Console console){
+    public Console addConsole(@RequestBody @Valid Console console) {
         return serviceLayer.addConsole(console);
     }
 
@@ -35,30 +32,30 @@ public class ConsoleControllers {
         }
     }
 
-    @GetMapping(value = "/{consoleId}")
+    @GetMapping(value = "/find/{consoleId}")
     @ResponseStatus(value = HttpStatus.OK)
     public Console getConsole(@PathVariable int consoleId) {
         return serviceLayer.getConsole(consoleId);
     }
 
 
-    @PutMapping(value = "/{consoleId}")
+    @PutMapping(value = "/update/{consoleId}")
     @ResponseStatus(value = HttpStatus.OK)
-    public void updateConsole(@PathVariable int id,@RequestBody @Valid Console console) {
-        console.setConsoleId(id);
+    public void updateConsole(@PathVariable int consoleId, @RequestBody @Valid Console console) {
+        console.setConsoleId(consoleId);
         serviceLayer.updateConsole(console);
     }
 
-    @DeleteMapping(value = "/{consoleId}")
+    @DeleteMapping(value = "/delete/{consoleId}")
     @ResponseStatus(value = HttpStatus.GONE)
     public void deleteConsole(@PathVariable int consoleId) {
         serviceLayer.deleteConsole(consoleId);
     }
 
 
-    @GetMapping(value = "/{manufacturer}")
+    @GetMapping(value = "findbymanufacturer/{manufacturer}")
     @ResponseStatus(value = HttpStatus.OK)
-    public List<Console> getConsolesByManufacturer(@PathVariable String manufacturer){
+    public List<Console> getConsolesByManufacturer(@PathVariable String manufacturer) {
         if (serviceLayer.getAllConsoles().size() > 0) {
             return serviceLayer.getByManufacturer(manufacturer);
         } else {
