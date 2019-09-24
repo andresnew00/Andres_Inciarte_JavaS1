@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -90,6 +91,7 @@ public class ConsoleDaoJdbcImp implements ConsoleDao {
      * @param console
      */
     @Override
+    @Transactional
     public void updateConsole(Console console) {
         jdbcTemplate.update(UPDATE_CONSOLE_SQL,
                 console.getModel(),
@@ -107,6 +109,7 @@ public class ConsoleDaoJdbcImp implements ConsoleDao {
      * @param consoleId
      */
     @Override
+    @Transactional
     public void deleteConsole(int consoleId) {
         jdbcTemplate.update(DELETE_CONSOLE_SQL,consoleId);
     }
@@ -135,3 +138,34 @@ public class ConsoleDaoJdbcImp implements ConsoleDao {
         return console;
     }
 }
+
+
+//@Repository
+////don't forget to add extends or implements keywords as necessary
+//public class DogDaoJdbcTemplateImpl implements DogDao {
+//  //insert code here
+//    private static final String UPDATE_DOG_SQL =
+//            "UPDATE dog SET name = ?, kennelNum = ? WHERE id = ?";
+//    private static final String DELETE_DOG_SQL =
+//            "DELETE FROM dog WHERE id = ?";
+//
+//    private JdbcTemplate jdbcTemplate;
+//
+//    @Autowired
+//    public DogDaoJdbcTemplateImpl(JdbcTemplate jdbcTemplate) {
+//        this.jdbcTemplate = jdbcTemplate;
+//    }
+//
+//    @Override
+//    @Transactional
+//    public void updateDog(Dog dog) {
+//        jdbcTemplate.update(UPDATE_DOG_SQL,
+//                dog.getName(),
+//                dog.getKennelNum());
+//    }
+//    @Override
+//    @Transactional
+//    public void deleteDog(int id) {
+//        jdbcTemplate.update(DELETE_DOG_SQL, id);
+//    }
+//}

@@ -1,8 +1,6 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
-import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -26,6 +24,7 @@ public class Game {
     @Size(max = 50, message = "Studio must be less than 50 characters long")
     private String studio;
     @NotNull
+    @PositiveOrZero
     private int quantity;
 
     public int getGameId() {

@@ -35,7 +35,11 @@ public class GameController {
     @GetMapping(value = "/find/{gameId}")
     @ResponseStatus(value = HttpStatus.OK)
     public Game getGame(@PathVariable int gameId) {
-        return serviceLayer.getGame(gameId);
+        if(serviceLayer.getConsole(gameId) == null) {
+            throw new IllegalArgumentException("Game not found.");
+        } else {
+            return serviceLayer.getGame(gameId);
+        }
     }
 
 

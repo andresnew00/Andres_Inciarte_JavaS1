@@ -35,7 +35,11 @@ public class TShirtController {
     @GetMapping(value = "/find/{tshirtId}")
     @ResponseStatus(value = HttpStatus.OK)
     public TShirt getTshirt(@PathVariable int tshirtId) {
-        return serviceLayer.getTshirt(tshirtId);
+        if(serviceLayer.getConsole(tshirtId) == null) {
+            throw new IllegalArgumentException("Console not found.");
+        } else {
+            return serviceLayer.getTshirt(tshirtId);
+        }
     }
 
 

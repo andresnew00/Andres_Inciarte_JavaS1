@@ -1,16 +1,33 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
+import javax.validation.constraints.*;
 import java.util.Objects;
 
 public class UserPurchaseInfo {
 
+    @NotNull
+    @Size(max = 80, message = "Name must be less than 80 characters long")
     private String name;
+    @NotNull
+    @Size(max = 30, message = "Title must be less than 30 characters long")
     private String street;
+    @NotNull
+    @Size(max = 30, message = "Title must be less than 30 characters long")
     private String city;
+    @NotNull
+    @Size(max = 2, message = "Please enter enter state in 2 char format ex. 'TX' ")
     private String state;
+    @NotNull
+    @Size(max = 5, message = "Zipcode must be less or 5 characters long")
     private String zipcode;
+    @NotNull
+    @Size(max = 20, message = "itemType must be less than 20 characters long")
     private String itemType;
+    @NotNull
+    @PositiveOrZero
     private int itemId;
+    @NotNull
+    @Min(0)
     private int quantity;
 
     public UserPurchaseInfo(String name, String street, String city, String state, String zipcode, String itemType, int itemId, int quantity) {

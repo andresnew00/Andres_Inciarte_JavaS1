@@ -483,7 +483,4 @@ public class ServiceLayerTest {
         tShirt.settShirtId(10);
         assertEquals(10, integerCaptor.getValue().intValue());
     }
-
-
-
 }

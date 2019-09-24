@@ -1,6 +1,8 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
+import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.PositiveOrZero;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.Objects;
@@ -28,9 +30,11 @@ public class Invoice {
     @Size(max = 20, message = "itemType must be less than 20 characters long")
     private String itemType;
     @NotNull
+    @PositiveOrZero
     private int itemId;
     private BigDecimal unitPrice;
     @NotNull
+    @PositiveOrZero
     private int quantity;
     private BigDecimal subtotal;
     private BigDecimal tax;

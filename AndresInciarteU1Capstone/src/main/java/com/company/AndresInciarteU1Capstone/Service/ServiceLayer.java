@@ -31,6 +31,7 @@ public class ServiceLayer {
     //CRUD Invoice
     @Transactional
     public Invoice findAddInvoice(UserPurchaseInfo info) {
+        //using info provided by user to fill up similar fields in invoice
         Invoice invoice = new Invoice();
         invoice.setName(info.getName());
         invoice.setStreet(info.getStreet());
@@ -39,18 +40,57 @@ public class ServiceLayer {
         invoice.setZipcode(info.getZipcode());
         invoice.setItemType(info.getItemType());
         invoice.setItemId(info.getItemId());
+        invoice.setQuantity(info.getQuantity());
         //unit price
         if (invoice.getItemType().equals("Consoles")) {
+            //sets unit price by getting the console by the id provided and retrieving the price
             invoice.setUnitPrice(consoleDao.getConsole(invoice.getItemId()).getPrice());
+            // get console quantity by using invoice provided id
+            Console console = consoleDao.getConsole(invoice.getItemId());
+
+            if (console.getQuantity() > invoice.getQuantity()) {
+                // change the console quantity to the console quantity and subtract by the quantity given by the user
+                console.setQuantity(console.getQuantity() - invoice.getQuantity());
+                // then update the console to have the new quantity
+                consoleDao.updateConsole(console);
+            } else {
+                throw new IllegalArgumentException("Quantity can not be larger than amount in storage, quantity in storage: " + console.getQuantity());
+            }
+
         } else if (invoice.getItemType().equals("Games")) {
+
             invoice.setUnitPrice(gameDao.getGame(invoice.getItemId()).getPrice());
+
+            Game game = gameDao.getGame(invoice.getItemId());
+            if (game.getQuantity() > invoice.getQuantity()) {
+
+                game.setQuantity(game.getQuantity() - invoice.getQuantity());
+                gameDao.updateGame(game);
+
+            } else {
+                throw new IllegalArgumentException("Quantity can not be larger than amount in storage, quantity in storage: " + game.getQuantity());
+            }
+
         } else if (invoice.getItemType().equals("T-Shirts")) {
             invoice.setUnitPrice(tshirtDao.getTshirt(invoice.getItemId()).getPrice());
+
+            TShirt tShirt = tshirtDao.getTshirt(invoice.getItemId());
+
+            if (tShirt.getQuantity() > invoice.getQuantity()) {
+
+                tShirt.setQuantity(tShirt.getQuantity() - invoice.getQuantity());
+                tshirtDao.updateTshirt(tShirt);
+
+            } else {
+                throw new IllegalArgumentException("Quantity can not be larger than amount in storage, quantity in storage: " + tShirt.getQuantity());
+            }
+
         } else {
+            // if the user does not provides any of the words then return null
             return null;
         }
-        invoice.setQuantity(info.getQuantity());
-        //subtotal no tax yes processing fee
+
+        //subtotal = no tax, yes processing fee
         invoice.setSubtotal(invoice.getUnitPrice().multiply(new BigDecimal(invoice.getQuantity())));
         //get tax
         invoice.setTax(salesTaxRateDao.getTaxByState(invoice.getState()).getRate().multiply(invoice.getSubtotal()));

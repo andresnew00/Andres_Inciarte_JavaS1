@@ -3,6 +3,7 @@ package com.company.AndresInciarteU1Capstone.Controller;
 import com.company.AndresInciarteU1Capstone.Dto.Console;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -35,7 +36,11 @@ public class ConsoleControllers {
     @GetMapping(value = "/find/{consoleId}")
     @ResponseStatus(value = HttpStatus.OK)
     public Console getConsole(@PathVariable int consoleId) {
-        return serviceLayer.getConsole(consoleId);
+        if(serviceLayer.getConsole(consoleId) == null) {
+            throw new IllegalArgumentException("Console not found.");
+        } else {
+            return serviceLayer.getConsole(consoleId);
+        }
     }
 
 

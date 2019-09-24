@@ -1,9 +1,6 @@
 package com.company.AndresInciarteU1Capstone.Dto;
 
-import javax.validation.constraints.Digits;
-import javax.validation.constraints.Max;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
+import javax.validation.constraints.*;
 import java.math.BigDecimal;
 import java.util.Objects;
 
@@ -25,6 +22,7 @@ public class Console {
     @Digits(integer = 5, fraction = 2)
     private BigDecimal price;
     @NotNull
+    @PositiveOrZero
     private int quantity;
 
     public int getConsoleId() {
