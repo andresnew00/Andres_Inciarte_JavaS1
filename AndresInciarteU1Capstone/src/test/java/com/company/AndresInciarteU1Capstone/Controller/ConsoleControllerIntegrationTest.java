@@ -1,6 +1,5 @@
 package com.company.AndresInciarteU1Capstone.Controller;
 
-import com.company.AndresInciarteU1Capstone.Dao.ConsoleDao;
 import com.company.AndresInciarteU1Capstone.Dto.Console;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -194,46 +193,44 @@ public class ConsoleControllerIntegrationTest {
                 .andExpect(content().string(""));
     }
 
-    //TODO this
     @Test
     public void getConsolesByManufacturer() throws Exception {
 
-//        Console console = new Console();
-//        console.setConsoleId(1);
-//        console.setModel("PS4");
-//        console.setManufacturer("Sony");
-//        console.setMemoryAmount("40GB");
-//        console.setProcessor("Intel");
-//        console.setPrice(BigDecimal.valueOf(400,2));
-//        console.setQuantity(30);
-//
-//        Console console2 = new Console();
-//        console2.setConsoleId(2);
-//        console2.setModel("PS3");
-//        console2.setManufacturer("Sony");
-//        console2.setMemoryAmount("10GB");
-//        console2.setProcessor("Intel");
-//        console2.setPrice(BigDecimal.valueOf(200,2));
-//        console2.setQuantity(40);
-//
-//        List<Console> consoleList = new ArrayList<>();
-//        consoleList.add(console);
-//        consoleList.add(console2);
-//
-//        //Object to JSON in String
-//        when(serviceLayer.getByManufacturer("Sony")).thenReturn(consoleList);
-//
-//        List<Console> consoleListChecker = new ArrayList<>();
-//        consoleListChecker.addAll(consoleList);
-//        //To confirm the test is testing what we think it is... add another Rsvp.
-//        // Uncommenting the below line causes the test to fail. As expected!
-//        // listChecker.add(new Rsvp(10, "Donald Duck", 2));
-//        String outputJson = mapper.writeValueAsString(consoleListChecker);
-//
-//        this.mockMvc.perform(get("/console/findbymanufacturer/Sony"))
-//                .andDo(print())
-//                .andExpect(status().isOk())
-//                .andExpect(content().json(outputJson));
+        Console console = new Console();
+        console.setConsoleId(1);
+        console.setModel("PS4");
+        console.setManufacturer("Sony");
+        console.setMemoryAmount("40GB");
+        console.setProcessor("Intel");
+        console.setPrice(BigDecimal.valueOf(400,2));
+        console.setQuantity(30);
 
+        Console console2 = new Console();
+        console2.setConsoleId(2);
+        console2.setModel("PS3");
+        console2.setManufacturer("Sony");
+        console2.setMemoryAmount("10GB");
+        console2.setProcessor("Intel");
+        console2.setPrice(BigDecimal.valueOf(200,2));
+        console2.setQuantity(40);
+
+        List<Console> consoleList = new ArrayList<>();
+        consoleList.add(console);
+        consoleList.add(console2);
+
+        //Object to JSON in String
+        when(serviceLayer.getAllConsoles()).thenReturn(consoleList);
+
+        List<Console> consoleListChecker = new ArrayList<>();
+        consoleListChecker.addAll(consoleList);
+
+        String outputJson = mapper.writeValueAsString(consoleListChecker);
+
+        when(serviceLayer.getByManufacturer("Sony")).thenReturn(consoleListChecker);
+
+                this.mockMvc.perform(get("/console/findbymanufacturer/Sony"))
+                        .andDo(print())
+                        .andExpect(status().isOk())
+                        .andExpect(content().json(outputJson));
     }
 }
