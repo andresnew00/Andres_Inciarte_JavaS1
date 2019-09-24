@@ -1,5 +1,6 @@
 package com.company.AndresInciarteU1Capstone.Controller;
 
+import com.company.AndresInciarteU1Capstone.Dto.Console;
 import com.company.AndresInciarteU1Capstone.Dto.Game;
 import com.company.AndresInciarteU1Capstone.Service.ServiceLayer;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -191,6 +192,72 @@ public class GameControllerIntegrationTest {
         this.mockMvc.perform(MockMvcRequestBuilders.delete("/game/delete/1"))
                 .andDo(print()).andExpect(status().isGone())
                 .andExpect(content().string(""));
+    }
+
+    @Test
+    public void findGamebytitle() throws Exception {
+        Game game = new Game();
+        game.setGameId(1);
+        game.setTitle("Minecraft");
+        game.setEsrbRating("E");
+        game.setDescription("blocks!");
+        game.setPrice(BigDecimal.valueOf(40,2));
+        game.setStudio("Microsoft");
+        game.setQuantity(30);
+
+        //Object to JSON in String
+        String outputJson = mapper.writeValueAsString(game);
+
+        // Mocking DAO response
+        // This is another way to mock using mockito
+        // same as doReturn(returnVal).when(repo).findById(8);
+        // We could also set up our mocks in a separate method, if we so chose
+        when(serviceLayer.getGameByTitle("Minecraft")).thenReturn(game);
+
+        this.mockMvc.perform(get("/game/findbytitle/Minecraft"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                //use the objectmapper output with the json method
+                .andExpect(content().json(outputJson));
+    }
+
+    @Test
+    public void getGamesByEsrbRating() throws Exception {
+
+        Game game = new Game();
+        game.setGameId(1);
+        game.setTitle("Minecraft");
+        game.setEsrbRating("E");
+        game.setDescription("blocks!");
+        game.setPrice(BigDecimal.valueOf(40,2));
+        game.setStudio("Microsoft");
+        game.setQuantity(30);
+
+        Game game2 = new Game();
+        game2.setGameId(1);
+        game2.setTitle("Minecraft");
+        game2.setEsrbRating("E");
+        game2.setDescription("blocks!");
+        game2.setPrice(BigDecimal.valueOf(40,2));
+        game2.setStudio("Microsoft");
+        game2.setQuantity(30);
+
+        List<Game> gameList = new ArrayList<>();
+        gameList.add(game);
+        gameList.add(game2);
+
+
+        List<Game> gameListChecker = new ArrayList<>();
+        gameListChecker.addAll(gameList);
+
+        String outputJson = mapper.writeValueAsString(gameList);
+
+        when(serviceLayer.getGamesByEsrbRating("E")).thenReturn(gameList);
+
+        this.mockMvc.perform(get("/game/findbyesrb/E"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().json(outputJson));
     }
 }
 
