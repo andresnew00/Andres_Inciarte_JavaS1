@@ -130,7 +130,7 @@ public class TShirtControllerIntegrationTest {
         tShirt.setQuantity(11);
 
         TShirt tShirt2 = new TShirt();
-        tShirt2.settShirtId(1);
+        tShirt2.settShirtId(2);
         tShirt2.setSize("S");
         tShirt2.setColor("Blue");
         tShirt2.setDescription("Nice");
