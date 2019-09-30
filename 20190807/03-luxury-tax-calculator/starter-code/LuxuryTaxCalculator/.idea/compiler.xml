@@ -9,5 +9,8 @@
         <module name="LuxuryTaxCalculator" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="LuxuryTaxCalculator" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

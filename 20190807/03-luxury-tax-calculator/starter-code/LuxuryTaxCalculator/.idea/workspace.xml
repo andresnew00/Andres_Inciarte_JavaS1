@@ -1,10 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4a4776a-7cb9-4043-b53f-65f39dfc0f83" name="Default Changelist" comment="">
+    <list default="true" id="b58ade40-7025-4cd3-99a2-55379dd5267d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/CommandLineGram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LuxuryTaxCalculator.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20190806/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190806/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/LuxuryTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/LuxuryTaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/LuxuryTaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/LuxuryTaxCalculator.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,27 +50,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LuxuryTaxCalculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="33" column="59" lean-forward="true" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/LuxuryTaxCalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+            <state relative-caret-position="679">
+              <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>double</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -53,18 +68,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="804" />
+    <option name="width" value="732" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -106,27 +113,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="LuxuryTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuxuryTaxCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuxuryTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuxuryTaxCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LuxuryTaxCalculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LuxuryTaxCalculator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -135,7 +121,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -149,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LuxuryTaxCalculatorTest">
+  <component name="RunManager">
     <configuration name="LuxuryTaxCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.LuxuryTaxCalculator" />
       <module name="LuxuryTaxCalculator" />
@@ -163,24 +150,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuxuryTaxCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LuxuryTaxCalculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.LuxuryTaxCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LuxuryTaxCalculatorTest" />
         <item itemvalue="Application.LuxuryTaxCalculator" />
       </list>
     </recent_temporary>
@@ -190,77 +161,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4a4776a-7cb9-4043-b53f-65f39dfc0f83" name="Default Changelist" comment="" />
-      <created>1565122013601</created>
+      <changelist id="b58ade40-7025-4cd3-99a2-55379dd5267d" name="Default Changelist" comment="" />
+      <created>1569812237955</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565122013601</updated>
+      <updated>1569812237955</updated>
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 16h 28m 29s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 16h 30m 21s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 16h 30m 35s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 16h 31m 15s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 18h 35m 56s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuxuryTaxCalculatorTest - 2019.08.06 at 18h 37m 49s.xml">
-      <configuration name="LuxuryTaxCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20821325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286517" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286517" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="CodeStream" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/LuxuryTaxCalculatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/LuxuryTaxCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="33" column="59" lean-forward="true" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="679">
+          <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
         </state>
       </provider>
     </entry>

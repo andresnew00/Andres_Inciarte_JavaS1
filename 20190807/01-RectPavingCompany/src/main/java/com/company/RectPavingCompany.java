@@ -27,6 +27,9 @@ public class RectPavingCompany {
         double subtotalFooter = footers * perimeter;
         System.out.format("Subtotal of footers is %2f ", subtotalFooter);
 
+        //brake point
+        System.out.println();
+
         //Version 2
         System.out.println("What is the price of cement?");
         double priceCement = Double.parseDouble(scan.nextLine());

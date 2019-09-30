@@ -9,5 +9,8 @@
         <module name="CommandLineGram" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CommandLineGram" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

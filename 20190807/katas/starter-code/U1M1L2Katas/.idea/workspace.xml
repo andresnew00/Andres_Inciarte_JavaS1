@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bf8cfb3-652a-4b2c-8d5f-536faa6584cf" name="Default Changelist" comment="">
+    <list default="true" id="0fde4caa-6c05-4061-b972-6f67b07fca34" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/CommandLineGram.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/LuxuryTaxCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/U1M1L2Katas.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../../20190806/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../20190806/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/src/main/java/com/company/LuxuryTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/src/main/java/com/company/LuxuryTaxCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/target/classes/com/company/LuxuryTaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/target/classes/com/company/LuxuryTaxCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +55,80 @@
     <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>num1</find>
-      <find>double</find>
-    </findStrings>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AverageThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AddFiveAndDoubleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-560">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
@@ -32,26 +137,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/company/AddFive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/AverageThree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="733" />
+    <option name="height" value="814" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -59,6 +151,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,12 +211,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +229,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllKatasTest">
+  <component name="RunManager" selected="JUnit.AddFiveAndDoubleTest">
+    <configuration name="AddFive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.AddFive" />
+      <module name="U1M1L2Katas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddFiveAndDoubleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="U1M1L2Katas" />
       <extension name="coverage">
@@ -152,73 +258,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllKatasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M1L2Katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.AllKatasTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AverageThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M1L2Katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.AverageThreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiplyThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M1L2Katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.MultiplyThreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubtractTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="U1M1L2Katas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.company" />
-      <option name="MAIN_CLASS_NAME" value="com.company.SubtractTwoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AllKatasTest" />
-        <item itemvalue="JUnit.SubtractTwoTest" />
-        <item itemvalue="JUnit.MultiplyThreeTest" />
         <item itemvalue="JUnit.AddFiveAndDoubleTest" />
-        <item itemvalue="JUnit.AverageThreeTest" />
+        <item itemvalue="Application.AddFive" />
       </list>
     </recent_temporary>
   </component>
@@ -227,72 +270,48 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5bf8cfb3-652a-4b2c-8d5f-536faa6584cf" name="Default Changelist" comment="" />
-      <created>1565131267586</created>
+      <changelist id="0fde4caa-6c05-4061-b972-6f67b07fca34" name="Default Changelist" comment="" />
+      <created>1569812360606</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565131267586</updated>
+      <updated>1569812360606</updated>
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AverageThreeTest - 2019.08.06 at 19h 07m 32s.xml">
-      <configuration name="AverageThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AverageThreeTest - 2019.08.06 at 19h 08m 21s.xml">
-      <configuration name="AverageThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AverageThreeTest - 2019.08.06 at 19h 11m 26s.xml">
-      <configuration name="AverageThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AverageThreeTest - 2019.08.06 at 19h 11m 55s.xml">
-      <configuration name="AverageThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AverageThreeTest - 2019.08.06 at 19h 12m 09s.xml">
-      <configuration name="AverageThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddFiveAndDoubleTest - 2019.08.06 at 19h 16m 21s.xml">
+    <history-entry file="AddFiveAndDoubleTest - 2019.09.29 at 23h 16m 14s.xml">
       <configuration name="AddFiveAndDoubleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MultiplyThreeTest - 2019.08.06 at 19h 19m 21s.xml">
-      <configuration name="MultiplyThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SubtractTwoTest - 2019.08.06 at 19h 21m 59s.xml">
-      <configuration name="SubtractTwoTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllKatasTest - 2019.08.06 at 19h 22m 11s.xml">
-      <configuration name="AllKatasTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AllKatasTest - 2019.08.06 at 19h 24m 53s.xml">
-      <configuration name="AllKatasTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="816" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3280116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Codota" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="CodeStream" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -301,64 +320,57 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/company/AddFiveAndDoubleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-37">
+        <state relative-caret-position="-560">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/company/DoubleAndAddFiveTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="777">
+          <caret line="37" column="65" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddFiveAndDouble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AddThirteen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/AverageThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="20">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/DoubleAndAddFive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/MultiplyThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/company/SubtractTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

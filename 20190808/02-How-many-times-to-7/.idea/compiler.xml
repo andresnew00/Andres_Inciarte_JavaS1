@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="02-How-many-times-to-7" />
+        <module name="howmanytimestoseven" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="howmanytimestoseven" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

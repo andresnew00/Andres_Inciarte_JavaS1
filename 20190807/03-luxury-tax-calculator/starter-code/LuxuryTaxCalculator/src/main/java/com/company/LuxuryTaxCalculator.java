@@ -34,12 +34,5 @@ public class LuxuryTaxCalculator {
             System.out.println("Luxury Tax: " + luxuryPay);
 
         }
-
-
-
-
-
-
-
     }
 }

@@ -9,5 +9,8 @@
         <module name="U1M1L2Katas" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="U1M1L2Katas" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
