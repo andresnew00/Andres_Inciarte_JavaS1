@@ -2,9 +2,13 @@ package com.trilogyed.tasker.dao;
 
 import com.trilogyed.tasker.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 @Repository
@@ -21,7 +25,7 @@ public class TaskerDaoJdbcTemplateImpl implements TaskerDao {
     public static final String UPDATE_TASK =
             "update task set task_description = ?, create_date = ?, due_date = ?, category = ? where task_id = ?";
     public static final String DELETE_TASK =
-            "delete from task";
+            "delete from task where task_id = ?";
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -31,32 +35,67 @@ public class TaskerDaoJdbcTemplateImpl implements TaskerDao {
     }
 
     @Override
+    @Transactional
     public Task createTask(Task task) {
-        return null;
+        jdbcTemplate.update(INSERT_TASK,
+                task.getDescription(),
+                task.getCreateDate(),
+                task.getDueDate(),
+                task.getCategory());
+        int id = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
+
+        task.setId(id);
+
+        return task;
     }
 
     @Override
     public Task getTask(int id) {
-        return null;
+
+        try {
+            return jdbcTemplate.queryForObject(SELECT_TASK_BY_ID, this::rowMapperToTask, id);
+        } catch (EmptyResultDataAccessException e) {
+            return null;
+        }
+
     }
 
     @Override
     public List<Task> getAllTasks() {
-        return null;
+        return jdbcTemplate.query(SELECT_ALL_TASKS, this::rowMapperToTask);
     }
 
     @Override
     public List<Task> getTasksByCategory(String category) {
-        return null;
+        return jdbcTemplate.query(SELECT_TASKS_BY_CATEGORY, this::rowMapperToTask, category);
     }
 
     @Override
+    @Transactional
     public void updateTask(Task task) {
-
+        jdbcTemplate.update(UPDATE_TASK,
+                task.getDescription(),
+                task.getCreateDate(),
+                task.getDueDate(),
+                task.getCategory(),
+                task.getId());
     }
 
     @Override
+    @Transactional
     public void deleteTask(int id) {
+        jdbcTemplate.update(DELETE_TASK, id);
+    }
 
+    private Task rowMapperToTask(ResultSet rs, int rowNum) throws SQLException {
+
+        Task task = new Task();
+        task.setId(rs.getInt("task_id"));
+        task.setDescription(rs.getString("task_description"));
+        task.setCreateDate(rs.getDate("create_date").toLocalDate());
+        task.setDueDate(rs.getDate("due_date").toLocalDate());
+        task.setCategory(rs.getString("category"));
+
+        return task;
     }
 }

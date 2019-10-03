@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfebaf82-c3e3-498e-b8a7-f0f45cf8184a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/RectPavingCompany.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/CommandLineGram.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/LuxuryTaxCalculator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__com_github_stefanbirkner_system_rules_1_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/U1M1L2Katas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/howmanytimestoseven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GettingIndividualDigits.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GettingDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/GettingDigits.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/src/main/java/com/trilogyed/adserver/AdserverServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/src/main/java/com/trilogyed/adserver/controller/AdserverController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/adserver-service/src/test/java/com/trilogyed/adserver/AdserverServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/TaskerServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/controller/TaskerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/dao/TaskerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/dao/TaskerDaoJdbcTemplateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/model/TaskViewModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/java/com/trilogyed/tasker/service/TaskerServiceLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/test/java/com/trilogyed/tasker/TaskerServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../U2-M1-Summative-Inciarte-Andres/tasker-service/src/test/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190806/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190806/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/src/main/java/com/company/RectPavingCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/01-RectPavingCompany/target/classes/com/company/RectPavingCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/02-registration-form/starter-code/CommandLineGram/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/src/main/java/com/company/LuxuryTaxCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/src/main/java/com/company/LuxuryTaxCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/target/classes/com/company/LuxuryTaxCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/03-luxury-tax-calculator/starter-code/LuxuryTaxCalculator/target/classes/com/company/LuxuryTaxCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/src/main/java/com/company/AddFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/src/main/java/com/company/AddFive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/target/classes/com/company/AddFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190807/katas/starter-code/U1M1L2Katas/target/classes/com/company/AddFive.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190808/01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190808/01-Hi-Lo/starter-code/HiLo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190808/02-How-many-times-to-7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../20190808/03-Fizz-Buzz/starter-code/FizzBuzz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../20190808/03-Fizz-Buzz/starter-code/FizzBuzz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,16 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/GettingDigits.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="75" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -136,6 +49,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,7 +80,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,41 +130,41 @@
     <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Codota" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="CodeStream" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Codota" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="CodeStream" order="9" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/GettingDigits.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="75" lean-forward="true" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
