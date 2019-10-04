@@ -10,6 +10,17 @@ public class TaskViewModel {
     private String category;
     private String advertisement;
 
+    public TaskViewModel(){}
+
+    public TaskViewModel(int id, String description, LocalDate createDate, LocalDate dueDate, String category, String advertisement) {
+        this.id = id;
+        this.description = description;
+        this.createDate = createDate;
+        this.dueDate = dueDate;
+        this.category = category;
+        this.advertisement = advertisement;
+    }
+
     public int getId() {
         return id;
     }

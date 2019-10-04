@@ -2,6 +2,7 @@ package com.trilogyed.tasker.model;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.time.LocalDate;
 import java.util.Objects;
@@ -12,9 +13,9 @@ public class Task {
     @Size(max = 255)
     @NotBlank
     private String description;
-    @NotBlank
+    @NotNull
     private LocalDate createDate;
-    @NotBlank
+    @NotNull
     private LocalDate dueDate;
     @Size(max = 50)
     private String category;
@@ -66,6 +67,8 @@ public class Task {
         Task task = (Task) o;
         return id == task.id &&
                 Objects.equals(description, task.description) &&
+                Objects.equals(createDate, task.createDate) &&
+                Objects.equals(dueDate, task.dueDate) &&
                 Objects.equals(category, task.category);
     }
 

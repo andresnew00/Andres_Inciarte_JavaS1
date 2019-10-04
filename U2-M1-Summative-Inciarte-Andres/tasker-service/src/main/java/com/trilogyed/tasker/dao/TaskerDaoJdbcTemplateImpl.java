@@ -27,9 +27,10 @@ public class TaskerDaoJdbcTemplateImpl implements TaskerDao {
     public static final String DELETE_TASK =
             "delete from task where task_id = ?";
 
-    @Autowired
+
     private JdbcTemplate jdbcTemplate;
 
+    @Autowired
     public TaskerDaoJdbcTemplateImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
@@ -42,7 +43,8 @@ public class TaskerDaoJdbcTemplateImpl implements TaskerDao {
                 task.getCreateDate(),
                 task.getDueDate(),
                 task.getCategory());
-        int id = jdbcTemplate.queryForObject("select LAST_INSERT_ID()", Integer.class);
+
+        int id = jdbcTemplate.queryForObject("select last_insert_id()", Integer.class);
 
         task.setId(id);
 
