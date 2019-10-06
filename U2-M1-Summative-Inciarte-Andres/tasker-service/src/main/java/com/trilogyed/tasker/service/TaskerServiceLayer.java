@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
-//TODO finish service layer methods
+
 @Component
 public class TaskerServiceLayer {
 

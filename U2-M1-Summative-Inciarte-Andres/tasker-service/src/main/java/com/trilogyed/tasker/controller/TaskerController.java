@@ -47,12 +47,9 @@ public class TaskerController {
         service.deleteTask(id);
     }
 
-    //TODO have to finish the service layer first
     @GetMapping("/category/{category}")
     public List<TaskViewModel> getTaskByCategory(@PathVariable String category) {
         return service.fetchTasksByCategory(category);
     }
-
-
 
 }
