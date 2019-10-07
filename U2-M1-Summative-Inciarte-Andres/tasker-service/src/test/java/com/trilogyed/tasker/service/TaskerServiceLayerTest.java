@@ -8,6 +8,7 @@ import com.trilogyed.tasker.util.feign.AdServiceClient;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.ArgumentCaptor;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -30,9 +31,9 @@ public class TaskerServiceLayerTest {
 
     public void setUpTaskerDaoMock() {
 
-        taskerDao = mock(TaskerDaoJdbcTemplateImpl.class);
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
+        taskerDao = mock(TaskerDao.class);
+        LocalDate date1 = LocalDate.of(2019, 12, 11);
+        LocalDate date2 = LocalDate.of(2019, 12, 12);
 
         List<Task> tasks = new ArrayList<>();
 
@@ -48,7 +49,8 @@ public class TaskerServiceLayerTest {
         task2.setCreateDate(date1);
         task2.setDueDate(date2);
         task2.setCategory("category");
-        tasks.add(task2);
+
+        tasks.add(task1);
 
         doReturn(task1).when(taskerDao).createTask(task2);
         doReturn(task1).when(taskerDao).getTask(5);
@@ -60,7 +62,7 @@ public class TaskerServiceLayerTest {
     public void setUpAdserverClientMock() {
 
         client = mock(AdServiceClient.class);
-        doReturn("Random Ad").when(client).getAd();
+        doReturn("random Ad").when(client).getAd();
 
     }
 
@@ -76,116 +78,105 @@ public class TaskerServiceLayerTest {
 
     @Test
     public void fetchAllTasks() {
+        Task task1 = new Task();
 
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
+        task1.setDescription("description");
+        task1.setCreateDate(LocalDate.of(2019, 12, 11));
+        task1.setDueDate(LocalDate.of(2019, 12, 12));
+        task1.setCategory("category");
+        task1 = taskerDao.createTask(task1);
 
-        List<TaskViewModel> tasks = new ArrayList<>();
+        assertEquals(1, taskerDao.getAllTasks().size());
+    }
+
+
+    @Test
+    public void fetchTasksByCategory() {
+
+        LocalDate date1 = LocalDate.of(2019, 12, 11);
+        LocalDate date2 = LocalDate.of(2019, 12, 12);
+
+        List<Task> tasks = new ArrayList<>();
 
         Task task1 = new Task();
         task1.setDescription("description");
         task1.setCreateDate(date1);
         task1.setDueDate(date2);
         task1.setCategory("category");
-        TaskViewModel task1tvm = serviceLayer.newTask(task1);
-        tasks.add(task1tvm);
+        taskerDao.createTask(task1);
+        tasks.add(task1);
 
         Task task2 = new Task();
         task2.setDescription("description");
         task2.setCreateDate(date1);
         task2.setDueDate(date2);
         task2.setCategory("category");
-        TaskViewModel task2tvm = serviceLayer.newTask(task2);
-        tasks.add(task2tvm);
-
-        tasks = serviceLayer.fetchAllTasks();
+        taskerDao.createTask(task2);
+        tasks.add(task2);
 
         assertEquals(2, tasks.size());
-
-    }
-
-    @Test
-    public void fetchTasksByCategory() {
-
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
-
-        List<TaskViewModel> tasks = new ArrayList<>();
-
-        Task task1 = new Task();
-        task1.setDescription("description");
-        task1.setCreateDate(date1);
-        task1.setDueDate(date2);
-        task1.setCategory("category");
-        TaskViewModel task1tvm = serviceLayer.newTask(task1);
-        tasks.add(task1tvm);
-
-        Task task2 = new Task();
-        task2.setDescription("Trim Hedges.");
-        task2.setCreateDate(date1);
-        task2.setDueDate(date2);
-        task2.setCategory("category");
-        TaskViewModel task2tvm = serviceLayer.newTask(task2);
-        tasks.add(task2tvm);
-
-        List<TaskViewModel> tasks2 = serviceLayer.fetchTasksByCategory("category");
-
-        assertEquals(2, tasks2.size());
     }
 
     @Test
     public void addGetTask() {
 
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
+        LocalDate date1 = LocalDate.of(2019, 12, 11);
+        LocalDate date2 = LocalDate.of(2019, 12, 12);
+
         Task task1 = new Task();
+        task1.setId(5);
         task1.setDescription("description");
         task1.setCreateDate(date1);  //LocalDate.of(2019, 8, 4)
         task1.setDueDate(date2);   //LocalDate.of(2019, 8, 11)
         task1.setCategory("category");
 
-        TaskViewModel task1tvm = serviceLayer.newTask(task1);
+        taskerDao.createTask(task1);
 
-        TaskViewModel task2 = serviceLayer.fetchTask(5);
+        taskerDao.getTask(5);
 
-        assertEquals(task1tvm.toString(), task2.toString());
+        assertEquals(5, task1.getId());
     }
 
     @Test
     public void deleteTask() {
 
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
+        LocalDate date1 = LocalDate.of(2019, 12, 11);
+        LocalDate date2 = LocalDate.of(2019, 12, 12);
+
         Task task1 = new Task();
+        task1.setId(5);
         task1.setDescription("description");
         task1.setCreateDate(date1);  //LocalDate.of(2019, 8, 4)
         task1.setDueDate(date2);   //LocalDate.of(2019, 8, 11)
         task1.setCategory("category");
 
-        TaskViewModel task1tvm = serviceLayer.newTask(task1);
+        ArgumentCaptor<Integer> captor = ArgumentCaptor.forClass(Integer.class);
+        doNothing().when(taskerDao).deleteTask(captor.capture());
 
         taskerDao.deleteTask(task1.getId());
 
-        assertNull(task1);
+        verify(taskerDao, times(1)).deleteTask(captor.getValue());
+
+        assertEquals((Integer)5, captor.getValue());
 
     }
 
     @Test
     public void updateTask() {
 
-        LocalDate date1 = LocalDate.of(2019, 12, 21);
-        LocalDate date2 = LocalDate.of(2020, 12, 21);
+        LocalDate date1 = LocalDate.of(2019, 12, 11);
+        LocalDate date2 = LocalDate.of(2019, 12, 12);
         Task task1 = new Task();
         task1.setDescription("description");
         task1.setCreateDate(date1);  //LocalDate.of(2019, 8, 4)
         task1.setDueDate(date2);   //LocalDate.of(2019, 8, 11)
         task1.setCategory("category");
 
-        TaskViewModel task1tvm = serviceLayer.newTask(task1);
+        taskerDao.createTask(task1);
 
-        task1tvm.setDescription("description2");
+        task1.setDescription("description2");
 
-        serviceLayer.updateTask(task1);
+        taskerDao.updateTask(task1);
 
         verify(taskerDao).updateTask(any(Task.class));
     }
