@@ -16,6 +16,7 @@ import java.util.List;
 @Component
 public class ServiceLayer {
 
+    // asking feign clients to bring information
     @Autowired
     private final PostFeignClient postFeignClient;
 
@@ -37,6 +38,7 @@ public class ServiceLayer {
 
     public PostViewModel createPostViewModel(PostViewModel pvm) {
         Post post = new Post();
+        // getting current date for comment
         post.setPostDate(LocalDate.now());
         post.setPosterName(pvm.getPosterName());
         post.setPost(pvm.getPost());

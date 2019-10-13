@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RefreshScope
+// this annotation allows us to specify the name of the cache our code will use
 @CacheConfig(cacheNames = "stwitter")
 public class StwitterController {
 
@@ -25,6 +26,8 @@ public class StwitterController {
         this.service = service;
     }
 
+    // this specifies that the annotated method should be run and the return
+    // value of the method added to the cache
     @CachePut(key = "#result.getId()")
     @PostMapping(value = "/posts")
     @ResponseStatus(HttpStatus.CREATED)
@@ -32,6 +35,7 @@ public class StwitterController {
         return service.createPostViewModel(pvm);
     }
 
+    // indicates that the result of the method can be cached
     @Cacheable
     @GetMapping(value = "/posts/{id}")
     @ResponseStatus(HttpStatus.OK)

@@ -13,6 +13,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
+// this annotation will enable caching
 @EnableCaching
 public class StwitterServiceApplication {
 

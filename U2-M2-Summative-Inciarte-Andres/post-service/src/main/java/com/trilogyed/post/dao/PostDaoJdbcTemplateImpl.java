@@ -15,6 +15,7 @@ import java.util.List;
 @Repository
 public class PostDaoJdbcTemplateImpl implements PostDao {
 
+    // prepared statements
     private String INSERT_POST_SQL =
             "insert into post (post_date, poster_name, post) values (?, ?, ?)";
     private String SELECT_POST_BY_ID_SQL =
@@ -100,6 +101,8 @@ public class PostDaoJdbcTemplateImpl implements PostDao {
         jdbcTemplate.update(DELETE_POST_SQL, id);
 
     }
+
+    //row mapper
 
     private Post mapRowToPost(ResultSet rs, int rowNumber) throws SQLException {
 
