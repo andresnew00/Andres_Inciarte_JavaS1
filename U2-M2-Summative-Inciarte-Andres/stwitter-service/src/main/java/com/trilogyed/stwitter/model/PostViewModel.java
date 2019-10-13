@@ -1,19 +1,19 @@
-package com.trilogyed.post.model;
+package com.trilogyed.stwitter.model;
 
 import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
+import java.util.List;
 import java.util.Objects;
 
-public class Post {
+public class PostViewModel {
 
     private int postId;
-    @NotNull(message = "date can not be null")
     private LocalDate postDate;
-    @NotEmpty(message = "Poster Name can not be empty.")
+    @NotEmpty(message = "Poster Name must not be empty.")
     private String posterName;
-    @NotEmpty(message = "You can not create an empty post.")
+    @NotEmpty(message = "Your post is empty, cannot create an empty post.")
     private String post;
+    private List<Comment> comments;
 
     public int getPostId() {
         return postId;
@@ -47,29 +47,39 @@ public class Post {
         this.post = post;
     }
 
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Post post1 = (Post) o;
-        return postId == post1.postId &&
-                Objects.equals(postDate, post1.postDate) &&
-                Objects.equals(posterName, post1.posterName) &&
-                Objects.equals(post, post1.post);
+        PostViewModel that = (PostViewModel) o;
+        return postId == that.postId &&
+                Objects.equals(postDate, that.postDate) &&
+                Objects.equals(posterName, that.posterName) &&
+                Objects.equals(post, that.post) &&
+                Objects.equals(comments, that.comments);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(postId, postDate, posterName, post);
+        return Objects.hash(postId, postDate, posterName, post, comments);
     }
 
     @Override
     public String toString() {
-        return "Post{" +
+        return "PostViewModel{" +
                 "postId=" + postId +
                 ", postDate=" + postDate +
                 ", posterName='" + posterName + '\'' +
                 ", post='" + post + '\'' +
+                ", comments=" + comments +
                 '}';
     }
 }

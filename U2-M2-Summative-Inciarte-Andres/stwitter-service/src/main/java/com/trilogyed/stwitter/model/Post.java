@@ -1,18 +1,12 @@
-package com.trilogyed.post.model;
+package com.trilogyed.stwitter.model;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Post {
-
     private int postId;
-    @NotNull(message = "date can not be null")
     private LocalDate postDate;
-    @NotEmpty(message = "Poster Name can not be empty.")
     private String posterName;
-    @NotEmpty(message = "You can not create an empty post.")
     private String post;
 
     public int getPostId() {
@@ -53,7 +47,6 @@ public class Post {
         if (o == null || getClass() != o.getClass()) return false;
         Post post1 = (Post) o;
         return postId == post1.postId &&
-                Objects.equals(postDate, post1.postDate) &&
                 Objects.equals(posterName, post1.posterName) &&
                 Objects.equals(post, post1.post);
     }

@@ -1,0 +1,88 @@
+wopenapi: 3.0.0
+info:
+  title: Stwitter Service - Andres Inciarte
+  description: Stwitter (Simple Switter) is a stripped down social media service. The project was started as a proof of concept and the management team now wants you to complete the system for use on the company intranet.
+  version: "1.0"
+servers: 
+- url: http://localhost:8889
+  description: Local dev server
+  
+
+# Stwitter routes
+paths:
+  /posts:
+    post:
+      summary: Creates new post.
+      description: Adds postand comment into the database and returns post
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostViewModel'
+      responses:
+        '201':
+          description: Returns a Post.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        
+    get:
+      summary: Retrieves post view model by id.
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Uses id to return post information
+          schema:
+            type: integer
+            format: int64
+      responses:
+        '200':
+          description: Returns a Post.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        '404':
+          description: No Post found by the id
+  /posts/user/{poster_name}:
+  
+    get:
+      summary: Retrieves Post by category.
+      parameters:
+        - name: poster_name
+          in: path
+          required: true
+          description: return posts.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Returns a list of Post.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/PostViewModel'
+        '404':
+          description: No Posts found by the poster name given
+          
+components:
+  schemas:
+    PostViewModel:
+      properties:
+        postId: 
+          type: integer
+        create_date: 
+          type: object
+        posterName:
+          type: string
+        post:
+          type: string
+        comments:
+          type: array
+      required:
+        - posterName
+        - post
+        
