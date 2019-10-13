@@ -15,6 +15,7 @@ import java.util.List;
 @Repository
 public class CommentDaoJdbcTemplateImp implements CommentDao{
 
+    // prepared statements
     private String INSERT_COMMENT_SQL =
             "insert into comment (post_id, create_date, commenter_name, comment) values (?,?,?,?) ";
     private String SELECT_COMMENT_BY_ID_SQL =
@@ -27,6 +28,7 @@ public class CommentDaoJdbcTemplateImp implements CommentDao{
             "update comment set post_id = ?, create_date = ?, commenter_name = ?, comment = ? where comment_id = ?";
     private String DELETE_COMMENT_SQL =
             "delete from comment where comment_id = ?";
+
 
     JdbcTemplate jdbcTemplate;
 
@@ -96,6 +98,7 @@ public class CommentDaoJdbcTemplateImp implements CommentDao{
         jdbcTemplate.update(DELETE_COMMENT_SQL, id);
     }
 
+    // row mapper
     private Comment mapRowToComment(ResultSet rs, int rowNumber) throws SQLException {
 
         Comment comment = new Comment();
