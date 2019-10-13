@@ -20,7 +20,10 @@ public class CommentConsumerApplication {
 	public static final String QUEUE_NAME = "comment-queue";
 	public static final String ROUTING_KEY = "comment.create.#";
 
+	// queue, exchange, binding and Jackson2Json are all set up as Spring-managed beans
+
 	@Bean
+	// the second parameter indicate if the queue should be durable between restarts
 	Queue queue() {
 		return new Queue(QUEUE_NAME, false);
 	}
@@ -31,6 +34,8 @@ public class CommentConsumerApplication {
 	}
 
 	@Bean
+	//binding specifies that any message sent to our topic exchange with the routing key
+	// of commennt.create.# will be routed to our queue. producer is going to use this routing key
 	Binding binding(Queue queue, TopicExchange exchange) {
 		return BindingBuilder
 				.bind(queue)

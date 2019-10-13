@@ -3,12 +3,28 @@ package com.trilogyed.commentconsumer.message;
 import java.time.LocalDate;
 import java.util.Objects;
 
+// this message class will as the message in our system
+// must be present in both consumer and producer application
 public class Comment {
     private int commentId;
     private int postId;
     private LocalDate createDate;
     private String commenterName;
     private String comment;
+
+    //default constructor, Jackson requires a default constructor
+    //to marshall and unmarshal the messages
+    public Comment(int commentId) {
+    }
+
+    //this constructor is for convenience
+    public Comment(int commentId, int postId, LocalDate createDate, String commenterName, String comment) {
+        this.commentId = commentId;
+        this.postId = postId;
+        this.createDate = createDate;
+        this.commenterName = commenterName;
+        this.comment = comment;
+    }
 
     public int getCommentId() {
         return commentId;
