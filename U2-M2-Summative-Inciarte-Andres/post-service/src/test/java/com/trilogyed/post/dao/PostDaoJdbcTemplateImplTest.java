@@ -33,8 +33,8 @@ public class PostDaoJdbcTemplateImplTest {
 
         Post post = new Post();
         post.setPostDate(LocalDate.now());
-        post.setPosterName("Geo Godffrey");
-        post.setPost("Today's class totally blowed!");
+        post.setPosterName("Andres Inciarte");
+        post.setPost("post message");
         post = postDao.createPost(post);
 
         Post post2 = postDao.getPost(post.getPostId());
@@ -50,23 +50,23 @@ public class PostDaoJdbcTemplateImplTest {
 
         Post post = new Post();
         post.setPostDate(LocalDate.now());
-        post.setPosterName("Geo Godffrey");
-        post.setPost("Today's class totally blowed!");
+        post.setPosterName("Andres Inciarte");
+        post.setPost("post message");
         post = postDao.createPost(post);
         posts.add(post);
 
         Post post2 = new Post();
         post2.setPostDate(LocalDate.now());
-        post2.setPosterName("Geo Godffrey");
-        post2.setPost("I'm gonna whack somebody if this doesn't work!");
+        post2.setPosterName("Andres Inciarte");
+        post2.setPost("post message 2");
         post2 = postDao.createPost(post);
         posts.add(post2);
 
-        List<Post> postsFromDao = postDao.getPostsByPoster("Geo Godffrey");
+        List<Post> postsFromDao = postDao.getPostsByPoster("Andres Inciarte");
 
         assertEquals(posts.size(), postsFromDao.size());
 
-        postsFromDao = postDao.getPostsByPoster("John Gotti");
+        postsFromDao = postDao.getPostsByPoster("John Doe");
 
         assertEquals(0, postsFromDao.size());
 
@@ -77,11 +77,11 @@ public class PostDaoJdbcTemplateImplTest {
 
         Post post = new Post();
         post.setPostDate(LocalDate.now());
-        post.setPosterName("Geo Godffrey");
-        post.setPost("Today's class totally blowed!");
+        post.setPosterName("Andres Inciarte");
+        post.setPost("post message");
         post = postDao.createPost(post);
 
-        post.setPost("Today's class totally blowed! But I learned a lot.");
+        post.setPost("post message nice");
 
         postDao.updatePost(post, post.getPostId());
 
@@ -89,7 +89,7 @@ public class PostDaoJdbcTemplateImplTest {
 
         assertEquals(post, post2);
 
-        post.setPost("Actually, things are great.");
+        post.setPost("post message very nice");
 
         postDao.updatePost(post, post.getPostId() + 1);
 
@@ -103,8 +103,8 @@ public class PostDaoJdbcTemplateImplTest {
 
         Post post = new Post();
         post.setPostDate(LocalDate.now());
-        post.setPosterName("Geo Godffrey");
-        post.setPost("Today's class totally blowed!");
+        post.setPosterName("Andres Inciarte");
+        post.setPost("post message");
         post = postDao.createPost(post);
 
         postDao.deletePost(post.getPostId());

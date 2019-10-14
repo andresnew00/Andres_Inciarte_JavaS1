@@ -26,8 +26,8 @@ public class ServiceLayer {
     @Autowired
     private RabbitTemplate rabbitTemplate;
 
-    private static final String EXCHANGE = "comment-exchange";
-    private static final String ROUTING_KEY = "comment.create.new";
+    public static final String EXCHANGE = "comment-exchange";
+    public static final String ROUTING_KEY = "comment.create.new";
 
     @Autowired
     public ServiceLayer(PostFeignClient postFeignClient, CommentFeignClient commentFeignClient, RabbitTemplate rabbitTemplate) {

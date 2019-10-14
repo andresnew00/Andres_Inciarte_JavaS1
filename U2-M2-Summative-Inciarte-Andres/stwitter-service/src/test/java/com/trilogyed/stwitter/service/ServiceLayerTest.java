@@ -7,6 +7,10 @@ import com.trilogyed.stwitter.util.feign.CommentFeignClient;
 import com.trilogyed.stwitter.util.feign.PostFeignClient;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 
 import java.time.LocalDate;
@@ -16,219 +20,155 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
+@RunWith(MockitoJUnitRunner.class)
 public class ServiceLayerTest {
 
+    @Mock
     PostFeignClient postFeignClient;
+    @Mock
     CommentFeignClient commentFeignClient;
+    @Mock
     RabbitTemplate rabbitTemplate;
+    @InjectMocks
     ServiceLayer service;
 
     @Before
     public void setUp() throws Exception {
-
-        setUpCommentClient();
-        setUpPostClient();
-
-        service = new ServiceLayer(postFeignClient, commentFeignClient, rabbitTemplate);
-    }
-
-    @Test
-    public void createPostViewModel() {
-        List<Comment> commentList = new ArrayList<>();
-
-        Comment comment2 = new Comment();
-        comment2.setCommenterName("John Wick");
-        comment2.setComment("Today is a great day!");
-        commentList.add(comment2);
-
-        Comment comment3 = new Comment();
-        comment3.setCommenterName("Jay Edwards");
-        comment3.setComment("This is my comment about this!");
-        commentList.add(comment3);
-
         PostViewModel pvm = new PostViewModel();
-        pvm.setPosterName("Jeff Hardy");
-        pvm.setPost("O'Doyle rules!");
+        pvm.setPosterName("Andres");
+        pvm.setPostDate(LocalDate.of(2019, 11, 11));
+        pvm.setPost("outputPost");
+
+        List<Comment> commentList = new ArrayList<>();
+        Comment inputComment = new Comment();
+        inputComment.setComment("comment");
+        inputComment.setCommenterName("Name");
+        inputComment.setCreateDate(LocalDate.of(2019, 12, 12));
+        commentList.add(inputComment);
         pvm.setComments(commentList);
 
-        pvm = service.createPostViewModel(pvm);
+        List<Comment> commentListOne = new ArrayList<>();
+        Comment outputComment = new Comment();
+        outputComment.setComment("comment");
+        outputComment.setCommentId(1);
+        outputComment.setPostId(1);
+        outputComment.setCreateDate(LocalDate.of(2019, 10, 20));
+        outputComment.setCommenterName("Name");
+        commentListOne.add(outputComment);
 
-        PostViewModel pvmFromMock = service.getPostViewModel(5);
+        //input sent to post service using post service client
+        Post inputPost = new Post();
+        inputPost.setPost(pvm.getPost());
+        inputPost.setPostDate(pvm.getPostDate());
+        inputPost.setPosterName(pvm.getPosterName());
 
-        assertEquals(pvm, pvmFromMock);
-        verify(rabbitTemplate).convertAndSend(any(String.class), any(String.class));
-    }
+        //output recieved from post service
+        List<Post> postListOne = new ArrayList<>();
+        Post outputPost = new Post();
+        outputPost.setPostId(1);
+        outputPost.setPost(pvm.getPost());
+        outputPost.setPostDate(pvm.getPostDate());
+        outputPost.setPosterName(pvm.getPosterName());
+        postListOne.add(outputPost);
 
-    @Test
-    public void getPostViewModel() {
-        PostViewModel pvm1 = service.getPostViewModel(5);
+        doReturn(outputPost).when(postFeignClient).createPost(inputPost);
+        doReturn(outputPost).when(postFeignClient).getPost(1);
+        doReturn(commentListOne).when(commentFeignClient).findCommentsByPostId(1);
+        doReturn(postListOne).when(postFeignClient).getPostsByPoster("Andres");
 
-        List<Comment> commentList = new ArrayList<>();
 
-        Comment comment2 = new Comment();
-        comment2.setCommentId(8);
-        comment2.setPostId(5);
-        comment2.setCreateDate(LocalDate.now());
-        comment2.setCommenterName("John Wick");
-        comment2.setComment("Today is a great day!");
-        commentList.add(comment2);
+        inputComment.setPostId(1);
 
-        Comment comment3 = new Comment();
-        comment3.setCommentId(9);
-        comment3.setPostId(5);
-        comment3.setCreateDate(LocalDate.now());
-        comment3.setCommenterName("Jay Edwards");
-        comment3.setComment("This is my comment about this!");
-        commentList.add(comment3);
 
-        PostViewModel pvm2 = new PostViewModel();
-        pvm2.setPostId(5);
-        pvm2.setPostDate(LocalDate.now());
-        pvm2.setPosterName("Jeff Hardy");
-        pvm2.setPost("O'Doyle rules!");
-        pvm2.setComments(commentList);
-
-        assertEquals(pvm2, pvm1);
+        doNothing().when(rabbitTemplate).convertAndSend(ServiceLayer.EXCHANGE, ServiceLayer.ROUTING_KEY, inputComment);
 
     }
 
     @Test
-    public void getPostsByPoster() {
-        List<PostViewModel> pvmList1 = service.getPostsByPoster("Jeff Hardy");
-        List<PostViewModel> pvmList2 = new ArrayList<>();
+    public void CreatePostViewModel() {
+
+        PostViewModel pvm = new PostViewModel();
+        pvm.setPosterName("Andres");
+        pvm.setPostDate(LocalDate.of(2019, 11, 11));
+        pvm.setPost("outputPost");
 
         List<Comment> commentList = new ArrayList<>();
-        List<Comment> commentList2 = new ArrayList<>();
+        Comment inputComment = new Comment();
+        inputComment.setComment("comment");
+        inputComment.setCommenterName("Name");
+        inputComment.setCreateDate(LocalDate.of(2019, 12, 12));
+        commentList.add(inputComment);
+        pvm.setComments(commentList);
 
-        Comment comment2 = new Comment();
-        comment2.setCommentId(8);
-        comment2.setPostId(5);
-        comment2.setCreateDate(LocalDate.now());
-        comment2.setCommenterName("John Wick");
-        comment2.setComment("Today is a great day!");
-        commentList.add(comment2);
-
-        Comment comment3 = new Comment();
-        comment3.setCommentId(9);
-        comment3.setPostId(5);
-        comment3.setCreateDate(LocalDate.now());
-        comment3.setCommenterName("Jay Edwards");
-        comment3.setComment("This is my comment about this!");
-        commentList.add(comment3);
-
-        PostViewModel pvm2 = new PostViewModel();
-        pvm2.setPostId(5);
-        pvm2.setPostDate(LocalDate.now());
-        pvm2.setPosterName("Jeff Hardy");
-        pvm2.setPost("O'Doyle rules!");
-        pvm2.setComments(commentList);
-        pvmList2.add(pvm2);
-
-        PostViewModel pvm3 = new PostViewModel();
-        pvm3.setPostId(6);
-        pvm3.setPostDate(LocalDate.now());
-        pvm3.setPosterName("Jeff Hardy");
-        pvm3.setPost("Today was insightful.");
-        pvm3.setComments(commentList2);
-        pvmList2.add(pvm3);
-
-        assertEquals(pvmList2, pvmList1);
-
+        PostViewModel actualPvm = service.createPostViewModel(pvm);
+        pvm.setPostId(1);
+        pvm.getComments().get(0).setPostId(1);
+        assertEquals(pvm, actualPvm);
+        verify(rabbitTemplate, times(1)).convertAndSend(ServiceLayer.EXCHANGE, ServiceLayer.ROUTING_KEY, inputComment);
     }
 
-    public void setUpPostClient(){
-
-        postFeignClient = mock(PostFeignClient.class);
-        List<Post> postList = new ArrayList<>();
-
-        Post post = new Post();
-        post.setPostDate(LocalDate.now());
-        post.setPosterName("Jeff Hardy");
-        post.setPost("O'Doyle rules!");
-
-        Post post1 = new Post();
-        post1.setPostId(5);
-        post1.setPostDate(LocalDate.now());
-        post1.setPosterName("Jeff Hardy");
-        post1.setPost("O'Doyle rules!");
-        postList.add(post1);
-
-        Post post2 = new Post();
-        post2.setPostId(6);
-        post2.setPostDate(LocalDate.now());
-        post2.setPosterName("Jeff Hardy");
-        post2.setPost("Today was insightful.");
-        postList.add(post2);
-
-        doReturn(post1).when(postFeignClient).createPost(post);
-        doReturn(post1).when(postFeignClient).getPost(5);
-        doReturn(post2).when(postFeignClient).getPost(6);
-        doReturn(postList).when(postFeignClient).getPostsByPoster("Jeff Hardy");
-
-
-    }
-
-    public void setUpCommentClient(){
-        commentFeignClient = mock (CommentFeignClient.class);
-        List<Comment> commentList = new ArrayList<>();
-        List<Comment> commentList2 = new ArrayList<>();
-
-        Comment comment = new Comment();
-        comment.setPostId(5);
-        comment.setCreateDate(LocalDate.now());
-        comment.setCommenterName("John Wick");
-        comment.setComment("Today is a great day!");
-
-        Comment comment2 = new Comment();
-        comment2.setCommentId(8);
-        comment2.setPostId(5);
-        comment2.setCreateDate(LocalDate.now());
-        comment2.setCommenterName("John Wick");
-        comment2.setComment("Today is a great day!");
-        commentList.add(comment2);
-
-        Comment comment3 = new Comment();
-        comment3.setCommentId(9);
-        comment3.setPostId(5);
-        comment3.setCreateDate(LocalDate.now());
-        comment3.setCommenterName("Jay Edwards");
-        comment3.setComment("This is my comment about this!");
-        commentList.add(comment3);
-
-
-        doReturn(comment2).when(commentFeignClient).findComment(8);
-        doReturn(commentList).when(commentFeignClient).findCommentsByPostId(5);
-        doReturn(commentList2).when(commentFeignClient).findCommentsByPostId(6);
-
-
-    }
-
-    public void setUpRabbitTemplate(){
-        rabbitTemplate = mock (RabbitTemplate.class);
-
-        String EXCHANGE = "comment-exchange";
-        String ROUTING_KEY = "comment.create.new";
+    @Test
+    public void getPostViewModel(){
+        PostViewModel pvm = new PostViewModel();
+        pvm.setPosterName("Andres");
+        pvm.setPostDate(LocalDate.of(2019, 11, 11));
+        pvm.setPost("outputPost");
 
         List<Comment> commentList = new ArrayList<>();
+        Comment inputComment = new Comment();
+        inputComment.setComment("comment");
+        inputComment.setCommenterName("Name");
+        inputComment.setCreateDate(LocalDate.of(2019, 12, 12));
+        commentList.add(inputComment);
+        pvm.setComments(commentList);
 
-        Comment comment2 = new Comment();
+        List<Comment> commentListOne = new ArrayList<>();
+        Comment outputComment = new Comment();
+        outputComment.setComment("comment");
+        outputComment.setCommentId(1);
+        outputComment.setPostId(1);
+        outputComment.setCreateDate(LocalDate.of(2019, 10, 20));
+        outputComment.setCommenterName("Name");
+        commentListOne.add(outputComment);
 
-        comment2.setPostId(5);
-        comment2.setCreateDate(LocalDate.now());
-        comment2.setCommenterName("John Wick");
-        comment2.setComment("Today is a great day!");
-        commentList.add(comment2);
+        pvm.setPostId(1);
+        pvm.getComments().get(0).setPostId(1);
+        pvm.getComments().get(0).setCommentId(1);
+        PostViewModel actualpvm = service.getPostViewModel(pvm.getPostId());
+        assertEquals(pvm, actualpvm);
+    }
 
-        Comment comment3 = new Comment();
+    @Test
+    public void getPostsByPoster(){
+        PostViewModel pvm = new PostViewModel();
+        pvm.setPosterName("Andres");
+        pvm.setPostDate(LocalDate.of(2019, 11, 11));
+        pvm.setPost("outputPost");
 
-        comment3.setPostId(5);
-        comment3.setCreateDate(LocalDate.now());
-        comment3.setCommenterName("Jay Edwards");
-        comment3.setComment("This is my comment about this!");
-        commentList.add(comment3);
+        List<Comment> commentList = new ArrayList<>();
+        Comment inputComment = new Comment();
+        inputComment.setComment("comment");
+        inputComment.setCommenterName("Name");
+        inputComment.setCreateDate(LocalDate.of(2019, 12, 12));
+        commentList.add(inputComment);
+        pvm.setComments(commentList);
 
-        doNothing().when(rabbitTemplate).convertAndSend(EXCHANGE, ROUTING_KEY, comment2);
-        doNothing().when(rabbitTemplate).convertAndSend(EXCHANGE, ROUTING_KEY, comment3);
+        List<Comment> commentListOne = new ArrayList<>();
+        Comment outputComment = new Comment();
+        outputComment.setComment("comment");
+        outputComment.setCommentId(1);
+        outputComment.setPostId(1);
+        outputComment.setCreateDate(LocalDate.of(2019, 10, 20));
+        outputComment.setCommenterName("Name");
+        commentListOne.add(outputComment);
+
+        pvm.setPostId(1);
+        pvm.getComments().get(0).setPostId(1);
+        pvm.getComments().get(0).setCommentId(1);
+        List<PostViewModel> expectedPvms = new ArrayList<>();
+        expectedPvms.add(pvm);
+        List<PostViewModel> actualPvms = service.getPostsByPoster("Andres");
+        assertEquals(expectedPvms, actualPvms);
     }
 
 }

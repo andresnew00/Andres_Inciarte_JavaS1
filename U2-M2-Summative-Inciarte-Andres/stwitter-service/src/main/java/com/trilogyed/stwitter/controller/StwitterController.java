@@ -34,7 +34,6 @@ public class StwitterController {
     public PostViewModel createNewPost(@Valid @RequestBody PostViewModel pvm) {
         return service.createPostViewModel(pvm);
     }
-
     // indicates that the result of the method can be cached
     @Cacheable
     @GetMapping(value = "/posts/{id}")

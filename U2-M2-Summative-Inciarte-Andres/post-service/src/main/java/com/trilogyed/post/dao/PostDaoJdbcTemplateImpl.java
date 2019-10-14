@@ -39,8 +39,7 @@ public class PostDaoJdbcTemplateImpl implements PostDao {
     @Override
     @Transactional
     public Post createPost(Post post) {
-        jdbcTemplate.update
-                (INSERT_POST_SQL,
+        jdbcTemplate.update(INSERT_POST_SQL,
                         post.getPostDate(),
                         post.getPosterName(),
                         post.getPost());

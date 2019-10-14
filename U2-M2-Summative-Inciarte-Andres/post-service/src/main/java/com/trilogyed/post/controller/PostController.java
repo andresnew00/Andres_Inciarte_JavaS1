@@ -18,7 +18,7 @@ public class PostController {
         this.postDao = postDao;
     }
 
-    @RequestMapping(value = "/posts", method = RequestMethod.POST)
+    @PostMapping(value = "/posts")
     @ResponseStatus(HttpStatus.CREATED)
     Post createPost(@Valid @RequestBody Post post) {
 
@@ -26,20 +26,20 @@ public class PostController {
 
     }
 
-    @RequestMapping(value = "/posts/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/posts/{id}")
     @ResponseStatus(HttpStatus.OK)
     Post getPost(@PathVariable int id) {
 
         Post post = postDao.getPost(id);
 
         if (post == null) {
-            throw new IllegalArgumentException("Post could not be found for id " + id);
-        } else
+            throw new IllegalArgumentException("Post could not be found by id: " + id);
+        } else {
             return post;
-
+        }
     }
 
-    @RequestMapping(value = "posts/poster/{name}", method = RequestMethod.GET)
+    @GetMapping(value = "posts/poster/{name}")
     @ResponseStatus(HttpStatus.OK)
     List<Post> getPostsByPoster(@PathVariable("name") String name) {
 
@@ -53,7 +53,7 @@ public class PostController {
 
     }
 
-    @RequestMapping(value = "/posts/{id}", method = RequestMethod.PUT)
+    @PutMapping(value = "/posts/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void updatePost(@Valid @RequestBody Post post, @PathVariable int id) {
 
@@ -63,12 +63,12 @@ public class PostController {
             throw new IllegalArgumentException(
                     "Unable to update, endpoint id must match post id."
             );
-        } else
-
+        } else {
             postDao.updatePost(post, id);
+        }
     }
 
-    @RequestMapping(value = "/posts/{id}", method = RequestMethod.DELETE)
+    @DeleteMapping(value = "/posts/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void deletePost(@PathVariable int id) {
 
