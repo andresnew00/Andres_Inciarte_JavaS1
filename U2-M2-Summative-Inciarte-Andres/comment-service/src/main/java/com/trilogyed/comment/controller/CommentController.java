@@ -60,7 +60,7 @@ public class CommentController {
     }
 
     @PutMapping(value = ("/comment/{id}"))
-    @ResponseStatus(HttpStatus.NO_CONTENT)
+    @ResponseStatus(HttpStatus.OK)
     public void updateComment(@Valid @RequestBody Comment comment, @PathVariable("id") int id) {
         if (comment.getCommentId() != id) {
             throw new NotFoundException("Id does not match comment id");

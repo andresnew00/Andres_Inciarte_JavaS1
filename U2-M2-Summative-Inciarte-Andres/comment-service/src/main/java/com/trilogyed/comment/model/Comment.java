@@ -1,16 +1,26 @@
 package com.trilogyed.comment.model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
+import com.fasterxml.jackson.datatype.jsr310.ser.LocalDateSerializer;
+
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Positive;
 import java.time.LocalDate;
 import java.util.Objects;
 
 public class Comment {
 
     private int commentId;
-    @NotEmpty(message = "Id can not be empty")
+    @Positive
     private int postId;
     @NotNull
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+    @JsonSerialize(using = LocalDateSerializer.class)
+    @JsonDeserialize(using = LocalDateDeserializer.class)
     private LocalDate createDate;
     @NotEmpty(message = "Commenter name can not be empty")
     private String commenterName;
@@ -60,6 +70,18 @@ public class Comment {
     @Override
     public int hashCode() {
         return Objects.hash(commentId, postId, createDate, commenterName, comment);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Comment comment1 = (Comment) o;
+        return commentId == comment1.commentId &&
+                postId == comment1.postId &&
+                createDate.equals(comment1.createDate) &&
+                commenterName.equals(comment1.commenterName) &&
+                comment.equals(comment1.comment);
     }
 
     @Override
