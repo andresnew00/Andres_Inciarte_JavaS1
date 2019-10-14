@@ -1,5 +1,6 @@
 package com.trilogyed.stwitter.controller;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trilogyed.stwitter.model.Comment;
 import com.trilogyed.stwitter.model.PostViewModel;
@@ -8,8 +9,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+import org.springframework.cloud.autoconfigure.RefreshAutoConfiguration;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
@@ -28,6 +31,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(StwitterController.class)
+@ImportAutoConfiguration(RefreshAutoConfiguration.class)
 public class StwitterControllerTest {
 
     @Autowired
@@ -74,20 +78,25 @@ public class StwitterControllerTest {
         pvmNoId.setPostDate(LocalDate.of(2019,11,11));
         pvmNoId.setPosterName("Andres");
 
+        when(serviceLayer.createPostViewModel(pvmNoId)).thenReturn(pvm);
+
     }
 
     @Test
     public void createNewPost() throws Exception {
 
+        mapper.enable(DeserializationFeature.ACCEPT_EMPTY_ARRAY_AS_NULL_OBJECT);
+        mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
+
         String inputJson = mapper.writeValueAsString(pvmNoId);
 
         String outputJson = mapper.writeValueAsString(pvm);
 
-        when(serviceLayer.createPostViewModel(pvmNoId)).thenReturn(pvm);
+//        when(serviceLayer.createPostViewModel(pvmNoId)).thenReturn(pvm);
 
         this.mockMvc.perform(post("/posts")
                 .content(inputJson)
-                .contentType(MediaType.APPLICATION_JSON)
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
         ).andDo(print())
                 .andExpect(status().isCreated())
                 .andExpect(content().json(outputJson));
@@ -98,14 +107,13 @@ public class StwitterControllerTest {
     @Test
     public void getPostById() throws Exception {
 
-        String outputJson = mapper.writeValueAsString(pvmNoId);
+        String outputJson = mapper.writeValueAsString(pvm);
 
         when(serviceLayer.getPostViewModel(1)).thenReturn(pvm);
 
-        this.mockMvc.perform(get("//posts/" + pvm.getPostId()))
+        this.mockMvc.perform(get("/posts/1"))
                 .andDo(print())
                 .andExpect(status().isOk())
-                //use the objectmapper output with the json method
                 .andExpect(content().json(outputJson));
 
     }
@@ -115,7 +123,6 @@ public class StwitterControllerTest {
 
         List<PostViewModel> pvmList = new ArrayList<>();
         pvmList.add(pvm);
-        pvmList.add(pvm2);
 
         //Object to JSON in String
         when(serviceLayer.getPostsByPoster("Andres")).thenReturn(pvmList);
@@ -127,7 +134,7 @@ public class StwitterControllerTest {
 
         when(serviceLayer.getPostsByPoster("Andres")).thenReturn(postListChecker);
 
-        this.mockMvc.perform(get("/posts/user/" + pvm.getPosterName()))
+        this.mockMvc.perform(get("/posts/user/Andres"))
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().json(outputJson));

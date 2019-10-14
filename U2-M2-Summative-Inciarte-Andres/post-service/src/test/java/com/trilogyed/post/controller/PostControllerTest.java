@@ -1,5 +1,6 @@
 package com.trilogyed.post.controller;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.trilogyed.post.dao.PostDao;
 import com.trilogyed.post.model.Post;
@@ -19,7 +20,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.Assert.*;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.times;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -37,40 +39,43 @@ public class PostControllerTest {
 
     private ObjectMapper mapper = new ObjectMapper();
 
-    Post inputPost, outputPost, post2;
+    Post postNoId, post, post2;
 
     @Before
     public void setUp() throws Exception {
-        inputPost = new Post();
-        inputPost.setPostDate(LocalDate.of(2019,10,10));
-        inputPost.setPosterName("Andres");
-        inputPost.setPost("This is a post");
+        postNoId = new Post();
+        postNoId.setPostDate(LocalDate.of(2019,10,10));
+        postNoId.setPosterName("Andres");
+        postNoId.setPost("This is a post");
 
-        outputPost = new Post();
-        outputPost.setPostId(1);
-        outputPost.setPostDate(LocalDate.of(2019,10,10));
-        outputPost.setPosterName("Andres");
-        outputPost.setPost("This is a post");
+        post = new Post();
+        post.setPostId(1);
+        post.setPostDate(LocalDate.of(2019,10,10));
+        post.setPosterName("Andres");
+        post.setPost("This is a post");
 
         post2 = new Post();
         post2.setPostId(2);
         post2.setPostDate(LocalDate.of(2019,11,10));
         post2.setPosterName("Andres");
         post2.setPost("This is a another post");
+
+        when(postDao.createPost(postNoId)).thenReturn(post);
     }
 
     @Test
     public void createPost() throws Exception{
 
-        String inputJson = mapper.writeValueAsString(inputPost);
+        mapper.enable(DeserializationFeature.ACCEPT_EMPTY_ARRAY_AS_NULL_OBJECT);
+        mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
 
-        String outputJson = mapper.writeValueAsString(outputPost);
+        String inputJson = mapper.writeValueAsString(postNoId);
 
-        when(postDao.createPost(inputPost)).thenReturn(outputPost);
+        String outputJson = mapper.writeValueAsString(post);
 
         this.mockMvc.perform(post("/posts")
                 .content(inputJson)
-                .contentType(MediaType.APPLICATION_JSON)
+                .contentType(MediaType.APPLICATION_JSON_UTF8)
         ).andDo(print())
                 .andExpect(status().isCreated())
                 .andExpect(content().json(outputJson));
@@ -79,9 +84,9 @@ public class PostControllerTest {
     @Test
     public void getPostbyId() throws Exception{
 
-        String outputJson = mapper.writeValueAsString(outputPost);
+        String outputJson = mapper.writeValueAsString(post);
 
-        when(postDao.getPost(1)).thenReturn(outputPost);
+        when(postDao.getPost(1)).thenReturn(post);
 
         this.mockMvc.perform(get("/posts/1"))
                 .andDo(print())
@@ -94,7 +99,6 @@ public class PostControllerTest {
     public void getPostsByPoster() throws Exception {
 
         List<Post> postList = new ArrayList<>();
-        postList.add(outputPost);
         postList.add(post2);
 
         when(postDao.getAllPosts()).thenReturn(postList);
@@ -115,12 +119,15 @@ public class PostControllerTest {
 
     @Test
     public void updatePost() throws Exception {
-        String inputJson = mapper.writeValueAsString(outputPost);
+        doNothing().when(postDao).updatePost(post, 1);
 
-        this.mockMvc.perform(put("/posts/" + outputPost.getPostId())
+        String inputJson = mapper.writeValueAsString(post);
+
+        this.mockMvc.perform(put("/posts/1")
                 .content(inputJson)
-                .contentType(MediaType.APPLICATION_JSON))
-                .andDo(print()).andExpect(status().isNoContent());
+                .contentType(MediaType.APPLICATION_JSON_UTF8))
+                .andDo(print()).andExpect(status().isOk());
+        verify(postDao,times(1)).updatePost(post,1);
     }
 
     @Test
