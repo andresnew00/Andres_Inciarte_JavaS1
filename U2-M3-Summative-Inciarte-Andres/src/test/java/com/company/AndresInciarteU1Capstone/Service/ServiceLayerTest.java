@@ -2,6 +2,7 @@ package com.company.AndresInciarteU1Capstone.Service;
 
 import com.company.AndresInciarteU1Capstone.Dao.*;
 import com.company.AndresInciarteU1Capstone.Dto.*;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -147,6 +148,7 @@ public class ServiceLayerTest {
     }
 
     // ===============================
+
     @Before
     public void setUp() throws Exception {
         setUpConsoleDaoMock();
@@ -174,6 +176,8 @@ public class ServiceLayerTest {
         invoice.setTotal(BigDecimal.valueOf(202,2));
 
         invoiceDao.addInvoice(invoice);
+
+        assertEquals(1,invoiceDao.getAllInvoices().size());
     }
 
     @Test
@@ -247,6 +251,8 @@ public class ServiceLayerTest {
         console.setQuantity(40);
 
         serviceLayer.addConsole(console);
+
+        assertEquals(1, serviceLayer.getAllConsoles().size());
     }
 
     @Test

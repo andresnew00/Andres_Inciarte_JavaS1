@@ -11,15 +11,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import javax.sql.DataSource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -27,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(GameController.class)
+@WithMockUser(username="admin33",password = "3333",roles={"MANAGER","USER","STAFF","ADMIN"})
 public class GameControllerIntegrationTest {
 
     @Autowired
@@ -34,6 +38,9 @@ public class GameControllerIntegrationTest {
 
     @MockBean
     private ServiceLayer serviceLayer;
+
+    @MockBean
+    DataSource dataSource;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -115,6 +122,7 @@ public class GameControllerIntegrationTest {
         when(serviceLayer.addGame(game)).thenReturn(outputGame);
 
         this.mockMvc.perform(post("/game")
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON)
         ).andDo(print())
@@ -180,6 +188,7 @@ public class GameControllerIntegrationTest {
         String inputJson = mapper.writeValueAsString(game);
 
         this.mockMvc.perform(put("/game/update/" + game.getGameId())
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON))
                 .andDo(print()).andExpect(status().isOk());
@@ -189,7 +198,7 @@ public class GameControllerIntegrationTest {
     public void deleteGameIsOkNoContentReturned() throws Exception {
 
         //can't mock the call to delete. it returns void
-        this.mockMvc.perform(MockMvcRequestBuilders.delete("/game/delete/1"))
+        this.mockMvc.perform(MockMvcRequestBuilders.delete("/game/delete/1").with(csrf().asHeader()))
                 .andDo(print()).andExpect(status().isGone())
                 .andExpect(content().string(""));
     }

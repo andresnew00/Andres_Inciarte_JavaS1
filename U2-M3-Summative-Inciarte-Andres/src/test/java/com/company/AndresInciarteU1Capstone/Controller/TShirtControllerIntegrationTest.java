@@ -10,15 +10,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.mock.web.MockCookie;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import javax.sql.DataSource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -26,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(TShirtController.class)
+@WithMockUser(username="admin33",password = "3333",authorities={"ROLE_ADMIN","ROLE_MANAGER","ROLE_USER","ROLE_STAFF"})
 public class TShirtControllerIntegrationTest {
 
     @Autowired
@@ -33,6 +38,9 @@ public class TShirtControllerIntegrationTest {
 
     @MockBean
     private ServiceLayer serviceLayer;
+
+    @MockBean
+    DataSource dataSource;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -107,6 +115,7 @@ public class TShirtControllerIntegrationTest {
         when(serviceLayer.addTshirt(tShirt)).thenReturn(outputTShirt);
 
         this.mockMvc.perform(post("/tshirt")
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON)
         ).andDo(print())
@@ -167,6 +176,7 @@ public class TShirtControllerIntegrationTest {
         String inputJson = mapper.writeValueAsString(tShirt);
 
         this.mockMvc.perform(put("/tshirt/update/1")
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON))
                 .andDo(print()).andExpect(status().isOk());
@@ -176,7 +186,7 @@ public class TShirtControllerIntegrationTest {
     public void deleteTShirtIsOkNoContentReturned() throws Exception {
 
         //can't mock the call to delete. it returns void
-        this.mockMvc.perform(MockMvcRequestBuilders.delete("/tshirt/delete/1"))
+        this.mockMvc.perform(MockMvcRequestBuilders.delete("/tshirt/delete/1").with(csrf().asHeader()))
                 .andDo(print()).andExpect(status().isGone())
                 .andExpect(content().string(""));
     }

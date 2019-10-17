@@ -72,6 +72,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .mvcMatchers(HttpMethod.GET,"/tshirt/findbysize/*").permitAll()
                 .anyRequest().permitAll();
 
+        httpSecurity.authorizeRequests()
+                .mvcMatchers(HttpMethod.POST,"/addinvoice").permitAll()
+                .mvcMatchers(HttpMethod.GET,"/invoices").permitAll()
+                .anyRequest().permitAll();
 
         httpSecurity
                 .csrf()

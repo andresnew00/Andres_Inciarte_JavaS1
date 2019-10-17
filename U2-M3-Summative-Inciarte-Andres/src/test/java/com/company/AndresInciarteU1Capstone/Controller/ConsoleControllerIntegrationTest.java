@@ -10,15 +10,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
+import javax.sql.DataSource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -27,6 +30,8 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(ConsoleControllers.class)
+// admin : admin33 password: 3333 == $2a$10$NsNi16cjRr1DjueGGUfsbeh5MwyMQBjShUW3F7l8ZahibxaVPSWFO
+@WithMockUser(username="admin33",password = "3333",authorities={"ROLE_ADMIN","ROLE_MANAGER","ROLE_USER","ROLE_STAFF"})
 public class ConsoleControllerIntegrationTest {
 
     @Autowired
@@ -34,6 +39,9 @@ public class ConsoleControllerIntegrationTest {
 
     @MockBean
     private ServiceLayer serviceLayer;
+
+    @MockBean
+    DataSource dataSource;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -114,6 +122,7 @@ public class ConsoleControllerIntegrationTest {
         when(serviceLayer.addConsole(console)).thenReturn(outputConsole);
 
         this.mockMvc.perform(post("/console")
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON)
         ).andDo(print())
@@ -178,6 +187,7 @@ public class ConsoleControllerIntegrationTest {
         String inputJson = mapper.writeValueAsString(console);
 
         this.mockMvc.perform(put("/console/update/" + console.getConsoleId())
+                .with(csrf().asHeader())
                 .content(inputJson)
                 .contentType(MediaType.APPLICATION_JSON))
                 .andDo(print()).andExpect(status().isOk());
@@ -187,7 +197,7 @@ public class ConsoleControllerIntegrationTest {
     public void deleteConsoleIsOkNoContentReturned() throws Exception {
 
         //can't mock the call to delete. it returns void
-        this.mockMvc.perform(MockMvcRequestBuilders.delete("/console/delete/1"))
+        this.mockMvc.perform(delete("/console/delete/1").with(csrf().asHeader()))
                 .andDo(print()).andExpect(status().isGone())
                 .andExpect(content().string(""));
     }
@@ -227,9 +237,9 @@ public class ConsoleControllerIntegrationTest {
 
         when(serviceLayer.getByManufacturer("Sony")).thenReturn(consoleListChecker);
 
-                this.mockMvc.perform(get("/console/findbymanufacturer/Sony"))
-                        .andDo(print())
-                        .andExpect(status().isOk())
-                        .andExpect(content().json(outputJson));
+        this.mockMvc.perform(get("/console/findbymanufacturer/Sony"))
+                .andDo(print())
+                .andExpect(status().isOk())
+                .andExpect(content().json(outputJson));
     }
 }

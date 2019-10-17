@@ -11,14 +11,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 
+import javax.sql.DataSource;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.mockito.Mockito.when;
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestPostProcessors.csrf;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -27,6 +30,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(InvoiceController.class)
+@WithMockUser(username="admin33",password = "3333",roles={"MANAGER","USER","STAFF","ADMIN"})
 public class InvoiceControllerIntegrationTest {
 
     @Autowired
@@ -34,6 +38,9 @@ public class InvoiceControllerIntegrationTest {
 
     @MockBean
     private ServiceLayer serviceLayer;
+
+    @MockBean
+    DataSource dataSource;
 
     private ObjectMapper mapper = new ObjectMapper();
 
@@ -132,6 +139,7 @@ public class InvoiceControllerIntegrationTest {
         when(serviceLayer.findAddInvoice(input)).thenReturn(outputInvoice);
 
         this.mockMvc.perform(post("/addinvoice")
+                .with(csrf().asHeader())
                 .content(inputJson2)
                 .contentType(MediaType.APPLICATION_JSON)
         ).andDo(print())
